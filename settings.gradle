@@ -1,2 +1,2 @@
-include ':app', 'core:base'
+include ':app', ':login', 'core:base', 'features:login'
 rootProject.name='Choco'
