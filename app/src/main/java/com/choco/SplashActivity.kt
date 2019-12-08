@@ -3,6 +3,7 @@ package com.choco
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import com.actions.Actions
 
 class SplashActivity : AppCompatActivity() {
 
@@ -14,7 +15,7 @@ class SplashActivity : AppCompatActivity() {
 
     private fun showLogin() {
         Handler().postDelayed({
-//            Actions.openLogin(this@SplashActivity)
+            Actions.openLogin(this@SplashActivity)
             finish()
         }, 2000)
     }
