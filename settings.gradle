@@ -1,2 +1,4 @@
-include ':app', ':login', ':actions', 'core:base', 'core:actions', 'features:login'
+include ':app',
+        'core:base', 'core:actions', 'core:network',
+        'features:login'
 rootProject.name='Choco'
