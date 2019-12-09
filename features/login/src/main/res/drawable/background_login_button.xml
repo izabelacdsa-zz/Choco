@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/colorloginButton" />
+    <corners android:radius="80dp" />
+    <padding
+        android:bottom="20dp"
+        android:left="37dp"
+        android:right="37dp"
+        android:top="20dp" />
+</shape>
