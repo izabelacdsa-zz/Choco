@@ -7,7 +7,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object NetworkConfig {
 
-    private const val BASE_URL = ""
+    private const val BASE_URL = "https://glc4swy1fd.execute-api.eu-west-1.amazonaws.com/choco/"
     private var api: ApiServer? = null
 
     fun apiInstance(): ApiServer = api ?: Retrofit.Builder()

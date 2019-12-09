@@ -9,13 +9,13 @@
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/ivChocoLogoLogin"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
         app:layout_constraintBottom_toTopOf="@id/tilLoginEmail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/ic_choco_white" />
+        app:srcCompat="@mipmap/ic_choco_logo_white" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tilLoginEmail"
@@ -42,6 +42,7 @@
             android:drawablePadding="@dimen/margin_padding_medium"
             android:inputType="textEmailAddress"
             android:maxLines="1"
+            android:textColor="@color/colorPrimaryDark"
             android:textSize="@dimen/text_medium" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -70,12 +71,13 @@
             android:drawablePadding="@dimen/margin_padding_medium"
             android:inputType="textPassword"
             android:maxLength="20"
+            android:textColor="@color/colorPrimaryDark"
             android:textSize="@dimen/text_medium" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnLogin"
-        style="@style/ButtonThemeLogin"
+        style="@style/LoginButtonTheme"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_padding_large"

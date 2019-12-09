@@ -7,7 +7,7 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="ButtonThemeLogin">
+    <style name="LoginButtonTheme">
         <item name="android:fontFamily">@font/acme</item>
         <item name="android:textColor">@color/colorSecondaryText</item>
         <item name="android:textAllCaps">true</item>
