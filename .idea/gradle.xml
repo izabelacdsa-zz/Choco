@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/core/network" />
             <option value="$PROJECT_DIR$/features" />
             <option value="$PROJECT_DIR$/features/login" />
+            <option value="$PROJECT_DIR$/features/order" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
