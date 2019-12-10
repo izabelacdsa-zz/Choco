@@ -5,8 +5,10 @@ import android.content.Intent
 
 object Actions {
 
-    private const val ACTION_LOGIN = "com.features.login.activity.LoginActivity"
-    private const val ACTION_ORDER_LIST = "com.features.order.orderlist.activity.OrderListActivity"
+    private const val ACTION_LOGIN =
+        "com.features.login.activity.LoginActivity"
+    private const val ACTION_ORDER_LIST =
+        "com.features.order.orderlist.ui.activity.OrderListActivity"
 
     enum class Extras {
         EXTRA_TOKEN_LOGIN

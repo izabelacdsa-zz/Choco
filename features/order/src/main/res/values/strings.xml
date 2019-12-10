@@ -1,4 +1,4 @@
 <resources>
-    <string name="order_title_menu">My Orders</string>
+    <string name="order_title_menu">Order Products</string>
     <string name="order">order</string>
 </resources>

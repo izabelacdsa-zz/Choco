@@ -1,4 +1,4 @@
-package com.order.orderlist.activity
+package com.order.orderlist.ui.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
