@@ -6,7 +6,7 @@ import android.content.Intent
 object Actions {
 
     private const val ACTION_LOGIN = "com.features.login.activity.LoginActivity"
-    private const val ACTION_ORDER_LIST = "com.features.orderlist.activity.OrderListActivity"
+    private const val ACTION_ORDER_LIST = "com.features.order.orderlist.activity.OrderListActivity"
 
     enum class Extras {
         EXTRA_TOKEN_LOGIN
@@ -16,6 +16,13 @@ object Actions {
         context: Context
     ) {
         context.startActivity(internalIntent(context, ACTION_LOGIN))
+    }
+
+    fun openLoginFromOrderList(
+        context: Context
+    ) {
+        context.startActivity(internalIntent(context, ACTION_LOGIN)
+            .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP))
     }
 
     fun openOrderList(

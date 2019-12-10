@@ -3,7 +3,19 @@
     package="com.order">
 
     <application>
-        <activity android:name=".orderlist.activity.OrderListActivity"></activity>
+        <activity
+            android:name=".orderlist.activity.OrderListActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:label="@string/order_title_menu"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="com.features.order.orderlist.activity.OrderListActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
+
+
