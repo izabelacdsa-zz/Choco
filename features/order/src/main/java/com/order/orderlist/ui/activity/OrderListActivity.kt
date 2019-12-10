@@ -4,10 +4,15 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import androidx.lifecycle.ViewModelProvider
 import com.actions.Actions
 import com.order.R
 
 class OrderListActivity : AppCompatActivity() {
+
+    private val orderListViewModel by lazy {
+//        ViewModelProvider(this).get(OrderListViewModel::class.java)
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
