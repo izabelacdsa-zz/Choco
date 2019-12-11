@@ -12,6 +12,7 @@ import kotlinx.android.synthetic.main.item_order_list.view.*
 
 class OrderListAdapter(
     private val orderListResponse: List<OrderListResponse>
+//    private val call: (order: OrderListResponse) -> Unit
 ) : RecyclerView.Adapter<OrderListViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) =
@@ -34,14 +35,21 @@ class OrderListViewHolder(override val containerView: View) :
     LayoutContainer {
     fun bind(orderList: OrderListResponse) {
         with(itemView) {
-            tvOrderProductListPrice.text = orderList.price.toString()
+            tvOrderProductListPriceTotal.text = orderList.price.toString()
             tvOrderProductListName.text = orderList.name
             tvOrderProductListDescription.text = orderList.description
+
+            ivShoppingCart.setOnClickListener {
+                ivShoppingCart.visibility = View.INVISIBLE
+                tvOrderAdded.visibility = View.VISIBLE
+            }
+
+            Glide.with(itemView.context)
+                .load(orderList.photo)
+                .circleCrop()
+                .into(itemView.ivOrderProductList)
         }
 
-        Glide.with(itemView.context)
-            .load(orderList.photo)
-            .circleCrop()
-            .into(itemView.ivOrderProductList)
+
     }
 }

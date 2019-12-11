@@ -2,6 +2,9 @@
     <string name="order_title_menu">Order Products</string>
     <string name="order">order</string>
     <string name="order_price">€%s</string>
-    <string name="order_add_to_cart">add to cart</string>
+    <string name="order_add_to_cart">proceed to cart</string>
+    <string name="order_added">added</string>
+    <string name="price">Price</string>
+
 
 </resources>

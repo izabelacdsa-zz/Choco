@@ -13,6 +13,7 @@
     <color name="colorSecondaryText">#000000</color>
     <color name="colorGreyText">#323232</color>
 
+    <color name="colorAdded">#f7bb38</color>
     <color name="colorCardDefault">#eaeced</color>
 
 </resources>

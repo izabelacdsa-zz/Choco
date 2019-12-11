@@ -21,9 +21,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/margin_padding_medium"
+            android:text="@string/price"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvOrderProductListPriceTotal"
+            app:layout_constraintBottom_toBottomOf="@+id/tvOrderProductListPriceTotal"
+            app:layout_constraintEnd_toStartOf="@id/tvOrderProductListPriceTotal"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvOrderProductListPriceTotal"
+            style="@style/OrderProductListCardSubTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_padding_medium"
             android:background="@drawable/background_price"
             android:text="@string/order_price"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvOrderProductListPrice"
             app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.appcompat.widget.AppCompatTextView
@@ -33,7 +45,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/margin_padding_medium"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvOrderProductListPrice"
+            app:layout_constraintTop_toBottomOf="@+id/tvOrderProductListPriceTotal"
             tools:text="Tomato" />
 
         <androidx.appcompat.widget.AppCompatTextView
@@ -44,45 +56,42 @@
             android:layout_margin="@dimen/margin_padding_medium"
             android:ellipsize="end"
             android:maxLines="2"
+            app:layout_constraintEnd_toStartOf="@+id/ivOrderProductList"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvOrderProductListName"
-            app:layout_constraintEnd_toStartOf="@+id/ivOrderProductList"
             tools:text="Lettuce, cauliflower, bell pepper" />
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/ivOrderProductList"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/margin_padding_small"
-            app:layout_constraintBottom_toTopOf="@+id/btnOrderProductList"
+            android:layout_margin="@dimen/margin_padding_small"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/tvOrderProductListDescription"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btnOrderProductList"
-            style="@style/OrderProductListButtonAdd"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/order_add_to_cart"
-            android:layout_marginTop="@dimen/margin_padding_medium"
-            app:layout_constraintTop_toBottomOf="@id/tvOrderProductListDescription"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:background="@drawable/background_order_button"/>
-
-        <com.airbnb.lottie.LottieAnimationView
-            android:id="@+id/ltShoppingCart"
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivShoppingCart"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_padding_medium"
+            android:padding="@dimen/margin_padding_medium"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvOrderProductListDescription"
+            app:srcCompat="@drawable/ic_add_shopping" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvOrderAdded"
+            style="@style/OrderProductListCardAdded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_check"
+            android:text="@string/order_added"
             android:visibility="gone"
-            app:layout_constraintBottom_toBottomOf="@id/btnOrderProductList"
-            app:layout_constraintEnd_toEndOf="@id/btnOrderProductList"
-            app:layout_constraintStart_toStartOf="@id/btnOrderProductList"
-            app:layout_constraintTop_toTopOf="@id/btnOrderProductList"
-            app:lottie_autoPlay="true"
-            app:lottie_fileName="cart.json"
-            app:lottie_loop="true"
-            tools:visibility="visible" />
+            app:layout_constraintBottom_toBottomOf="@+id/ivShoppingCart"
+            app:layout_constraintEnd_toEndOf="@+id/ivShoppingCart"
+            app:layout_constraintStart_toStartOf="@+id/ivShoppingCart"
+            app:layout_constraintTop_toTopOf="@+id/ivShoppingCart" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.cardview.widget.CardView>

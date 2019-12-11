@@ -19,6 +19,13 @@
         <item name="android:textSize">@dimen/text_small</item>
     </style>
 
+    <style name="OrderProductListCardAdded">
+        <item name="android:fontFamily">@font/assistant_semibold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/colorAdded</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+    </style>
+
     <style name="OrderProductListButtonAdd">
         <item name="android:fontFamily">@font/assistant</item>
         <item name="android:textColor">@android:color/white</item>
