@@ -1,7 +1,9 @@
 package com.order.orderlist.viewmodel
 
+import android.widget.Toast
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
+import com.actions.Actions
 import com.base.BaseViewModel
 import com.base.R
 import com.extensions.HasError
@@ -20,24 +22,25 @@ class OrderListViewModel : BaseViewModel() {
     val mutableLiveDataOrderListSuccess = MutableLiveData<List<OrderListResponse>>()
     val mutableLiveDataOrderListError = MutableLiveData<HasError>()
 
-    suspend fun getOrderList(token: String) {
-        mutableLiveDataLoading.postValue(true)
-        viewModelScope.launch {
-            SuspendableResult.of<List<OrderListResponse>, Exception> {
-                orderListRepository.getOrderList(token)
-            }.fold(
-                success = {
-                    mutableLiveDataOrderListSuccess.postValue(it)
-                    mutableLiveDataLoading.postValue(false)
+    fun getOrderList(token: String?) {
+        if (token != null) {
+            mutableLiveDataLoading.postValue(true)
+            viewModelScope.launch {
+                SuspendableResult.of<List<OrderListResponse>, Exception> {
+                    orderListRepository.getOrderList(token)
+                }.fold(
+                    success = {
+                        mutableLiveDataOrderListSuccess.postValue(it)
+                        mutableLiveDataLoading.postValue(false)
 
-                }, failure = {
-                    mutableLiveDataOrderListError.postValue(parseException(it))
-                    mutableLiveDataLoading.postValue(false)
-                }
-            )
+                    }, failure = {
+                        mutableLiveDataOrderListError.postValue(parseException(it))
+                        mutableLiveDataLoading.postValue(false)
+                    }
+                )
+            }
         }
     }
-
     private fun parseException(exception: java.lang.Exception): HasError {
         return when (exception) {
             is IOException -> HasError(

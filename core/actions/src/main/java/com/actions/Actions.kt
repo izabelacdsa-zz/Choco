@@ -11,7 +11,7 @@ object Actions {
         "com.features.order.orderlist.ui.activity.OrderListActivity"
 
     enum class Extras {
-        EXTRA_TOKEN_LOGIN
+        LOGIN_TOKEN
     }
 
     fun openLogin(
@@ -33,7 +33,7 @@ object Actions {
     ) {
         context.startActivity(
             internalIntent(context, ACTION_ORDER_LIST)
-                .putExtra(Extras.EXTRA_TOKEN_LOGIN.name, token)
+                .putExtra(Extras.LOGIN_TOKEN.name, token)
                 .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP)
         )
     }

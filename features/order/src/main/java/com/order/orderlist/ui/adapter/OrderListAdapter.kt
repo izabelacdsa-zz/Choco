@@ -4,9 +4,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 import com.network.model.orderlist.OrderListResponse
 import com.order.R
 import kotlinx.android.extensions.LayoutContainer
+import kotlinx.android.synthetic.main.item_order_list.view.*
 
 class OrderListAdapter(
     private val orderListResponse: List<OrderListResponse>
@@ -32,7 +34,14 @@ class OrderListViewHolder(override val containerView: View) :
     LayoutContainer {
     fun bind(orderList: OrderListResponse) {
         with(itemView) {
-
+            tvOrderProductListPrice.text = orderList.price.toString()
+            tvOrderProductListName.text = orderList.name
+            tvOrderProductListDescription.text = orderList.description
         }
+
+        Glide.with(itemView.context)
+            .load(orderList.photo)
+            .circleCrop()
+            .into(itemView.ivOrderProductList)
     }
 }
