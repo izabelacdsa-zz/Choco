@@ -29,7 +29,7 @@
         layout="@layout/layout_loading" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnOrderProductList"
+        android:id="@+id/btnProceedToCart"
         style="@style/OrderProductListButtonAdd"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

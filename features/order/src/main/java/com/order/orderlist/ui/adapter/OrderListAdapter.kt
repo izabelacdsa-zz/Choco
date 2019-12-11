@@ -49,7 +49,5 @@ class OrderListViewHolder(override val containerView: View) :
                 .circleCrop()
                 .into(itemView.ivOrderProductList)
         }
-
-
     }
 }

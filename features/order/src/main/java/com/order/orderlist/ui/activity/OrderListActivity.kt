@@ -29,6 +29,13 @@ class OrderListActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_order_list)
         initObservers()
+        initComponents()
+    }
+
+    private fun initComponents() {
+        btnProceedToCart.setOnClickListener {
+            Actions.openOrderCheckout(this@OrderListActivity)
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {

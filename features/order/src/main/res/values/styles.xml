@@ -13,6 +13,12 @@
         <item name="android:textSize">@dimen/text_small</item>
     </style>
 
+    <style name="OrderSummaryTitle">
+        <item name="android:fontFamily">@font/alegreya_sans_sc_medium</item>
+        <item name="android:textColor">@color/colorGreyText</item>
+        <item name="android:textSize">@dimen/text_large</item>
+    </style>
+
     <style name="OrderProductListCardDescription">
         <item name="android:fontFamily">@font/assistant</item>
         <item name="android:textColor">@color/colorGreyText</item>

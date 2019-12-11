@@ -9,9 +9,12 @@ object Actions {
         "com.features.login.activity.LoginActivity"
     private const val ACTION_ORDER_LIST =
         "com.features.order.orderlist.ui.activity.OrderListActivity"
+    private const val ACTION_ORDER_CHECKOUT =
+        "com.features.order.ordercheckout.ui.activity.OrderCheckoutActivity"
 
     enum class Extras {
-        LOGIN_TOKEN
+        LOGIN_TOKEN,
+        PRODUCT_ADDED
     }
 
     fun openLogin(
@@ -35,6 +38,16 @@ object Actions {
             internalIntent(context, ACTION_ORDER_LIST)
                 .putExtra(Extras.LOGIN_TOKEN.name, token)
                 .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP)
+        )
+    }
+
+    fun openOrderCheckout(
+        context: Context
+//        product: String
+    ) {
+        context.startActivity(
+            internalIntent(context, ACTION_ORDER_CHECKOUT)
+//                .putExtra(Extras.PRODUCT_ADDED.name, product)
         )
     }
 

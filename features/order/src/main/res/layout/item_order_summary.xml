@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cvOrderSummary"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_padding_medium"
+    android:elevation="1dp"
+    app:cardBackgroundColor="@color/colorCardDefault"
+    app:cardCornerRadius="@dimen/margin_padding_medium"
+    app:cardElevation="0dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_padding_medium">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvOrderSummaryProductName"
+            style="@style/OrderProductListCardTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_padding_medium"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Tomato" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivOrderSummaryProduct"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_padding_small"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvOrderSummaryProductName"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvOrderSummaryProductPrice"
+            style="@style/OrderProductListCardSubTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_padding_medium"
+            android:text="@string/price"
+            app:layout_constraintBottom_toBottomOf="@+id/tvOrderSummaryProductPriceTotal"
+            app:layout_constraintEnd_toStartOf="@id/tvOrderSummaryProductPriceTotal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvOrderSummaryProductPriceTotal" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvOrderSummaryProductPriceTotal"
+            style="@style/OrderProductListCardSubTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_padding_medium"
+            android:background="@drawable/background_price"
+            android:text="@string/order_price"
+            app:layout_constraintStart_toEndOf="@+id/tvOrderSummaryProductPrice"
+            app:layout_constraintTop_toBottomOf="@+id/tvOrderSummaryProductName" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
