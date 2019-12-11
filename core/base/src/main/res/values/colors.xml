@@ -11,5 +11,8 @@
 
     <color name="colorPrimaryText">#ffffff</color>
     <color name="colorSecondaryText">#000000</color>
+    <color name="colorGreyText">#323232</color>
+
+    <color name="colorCardDefault">#eaeced</color>
 
 </resources>

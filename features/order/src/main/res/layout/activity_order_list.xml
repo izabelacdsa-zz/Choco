@@ -15,5 +15,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@mipmap/background_truck" />
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvOrderList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layoutAnimation="@anim/layout_animation_slide_from_bottom"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:listitem="@layout/item_order_list" />
+
+    <include
+        android:id="@+id/progressBar"
+        layout="@layout/layout_loading" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

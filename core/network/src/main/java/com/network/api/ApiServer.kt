@@ -1,7 +1,7 @@
 package com.network.api
 
-import com.network.model.login.LoginResponse
 import com.network.model.login.LoginRequest
+import com.network.model.login.LoginResponse
 import com.network.model.orderlist.OrderListResponse
 import kotlinx.coroutines.Deferred
 import retrofit2.http.Body
@@ -16,9 +16,9 @@ interface ApiServer {
         @Body user: LoginRequest
     ): Deferred<LoginResponse>
 
-    @GET("")
+    @GET("products")
     fun getOrderListAsync(
         @Query("token")
         token: String
-    ): Deferred<OrderListResponse>
+    ): Deferred<List<OrderListResponse>>
 }
