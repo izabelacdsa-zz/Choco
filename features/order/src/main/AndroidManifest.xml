@@ -6,17 +6,27 @@
 
     <application android:usesCleartextTraffic="true">
         <activity
+            android:name=".ordercheckout.ui.activity.ConfirmationOrderActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name=
+                    "com.features.order.ordercheckout.ui.activity.ConfirmationOrderActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".ordercheckout.ui.activity.OrderCheckoutActivity"
             android:label="@string/order_summary_title_menu"
             android:launchMode="singleTop"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme">
             <intent-filter>
-                <action android:name=
-                    "com.features.order.ordercheckout.ui.activity.OrderCheckoutActivity" />
+                <action android:name="com.features.order.ordercheckout.ui.activity.OrderCheckoutActivity" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-
         </activity>
         <activity
             android:name=".orderlist.ui.activity.OrderListActivity"
@@ -26,6 +36,7 @@
             android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="com.features.order.orderlist.ui.activity.OrderListActivity" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>

@@ -2,6 +2,7 @@ package com.order.ordercheckout.ui.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.actions.Actions
 import com.order.R
 import kotlinx.android.synthetic.main.activity_order_checkout.*
 
@@ -15,9 +16,7 @@ class OrderCheckoutActivity : AppCompatActivity() {
 
     private fun initComponents() {
         btnOrderProduct.setOnClickListener {
-
+            Actions.openConfirmationOrder(this@OrderCheckoutActivity)
         }
     }
-
-
 }
