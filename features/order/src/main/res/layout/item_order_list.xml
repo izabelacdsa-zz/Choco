@@ -13,8 +13,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/margin_padding_medium">
+        android:layout_height="wrap_content">
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/tvOrderProductListPrice"
@@ -40,18 +39,19 @@
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/tvOrderProductListDescription"
             style="@style/OrderProductListCardDescription"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/margin_padding_medium"
             android:ellipsize="end"
             android:maxLines="2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvOrderProductListName"
+            app:layout_constraintEnd_toStartOf="@+id/ivOrderProductList"
             tools:text="Lettuce, cauliflower, bell pepper" />
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/ivOrderProductList"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/margin_padding_small"
             app:layout_constraintBottom_toTopOf="@+id/btnOrderProductList"

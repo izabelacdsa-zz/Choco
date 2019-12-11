@@ -29,7 +29,6 @@ class OrderListActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_order_list)
         initObservers()
-
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {

@@ -2,12 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.order">
 
-    <application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application android:usesCleartextTraffic="true">
         <activity
             android:name="com.order.orderlist.ui.activity.OrderListActivity"
+            android:label="@string/order_title_menu"
             android:launchMode="singleTop"
             android:screenOrientation="portrait"
-            android:label="@string/order_title_menu"
             android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="com.features.order.orderlist.ui.activity.OrderListActivity" />
