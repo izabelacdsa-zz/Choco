@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent"
        android:text="@string/order_summary_title_menu" />
 
-    <view
+    <View
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintStart_toStartOf="parent"
