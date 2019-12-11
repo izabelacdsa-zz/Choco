@@ -71,5 +71,18 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:background="@drawable/background_order_button"/>
 
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/ltShoppingCart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/btnOrderProductList"
+            app:layout_constraintEnd_toEndOf="@id/btnOrderProductList"
+            app:layout_constraintStart_toStartOf="@id/btnOrderProductList"
+            app:layout_constraintTop_toTopOf="@id/btnOrderProductList"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="cart.json"
+            app:lottie_loop="true"
+            tools:visibility="visible" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.cardview.widget.CardView>

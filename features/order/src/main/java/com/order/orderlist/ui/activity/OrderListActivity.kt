@@ -7,11 +7,12 @@ import android.view.MenuItem
 import androidx.lifecycle.ViewModelProvider
 import com.actions.Actions
 import com.order.R
+import com.order.orderlist.viewmodel.OrderListViewModel
 
 class OrderListActivity : AppCompatActivity() {
 
     private val orderListViewModel by lazy {
-//        ViewModelProvider(this).get(OrderListViewModel::class.java)
+        ViewModelProvider(this).get(OrderListViewModel::class.java)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
