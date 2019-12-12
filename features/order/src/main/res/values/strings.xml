@@ -11,6 +11,10 @@
     <string name="order_product_button">order products</string>
     <string name="summary">Summary</string>
     <string name="summary_price">%s</string>
+    <string name="order_confirmation_title">Order created with success!</string>
+
+    <string name="order_product_exit">Leave the App</string>
+
 
 
 </resources>

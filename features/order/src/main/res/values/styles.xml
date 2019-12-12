@@ -39,4 +39,11 @@
         <item name="android:textAllCaps">true</item>
         <item name="android:gravity">center</item>
     </style>
+
+    <style name="ConfirmationOrderTitle">
+        <item name="android:fontFamily">@font/alegreya_sans_sc_medium</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_large</item>
+        </style>
 </resources>
