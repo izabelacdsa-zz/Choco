@@ -3,13 +3,17 @@ package com.order.orderlist.ui.adapter
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.appcompat.widget.AppCompatTextView
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
+import com.network.model.orderlist.OrderListResponse
 import com.order.R
-import com.order.orderlist.ui.adapter.model.OrderCheckoutModel
+import kotlinx.android.extensions.LayoutContainer
+import kotlinx.android.synthetic.main.item_order_summary.view.*
+import java.util.ArrayList
 
-class OrderCheckoutAdapter : RecyclerView.Adapter<FileOrderCheckoutViewHolder>() {
-    var productList = mutableListOf<OrderCheckoutModel>()
+class OrderCheckoutAdapter(
+    private var productList: ArrayList<OrderListResponse>
+) : RecyclerView.Adapter<FileOrderCheckoutViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) =
         FileOrderCheckoutViewHolder(
@@ -27,15 +31,22 @@ class OrderCheckoutAdapter : RecyclerView.Adapter<FileOrderCheckoutViewHolder>()
 
 }
 
-class FileOrderCheckoutViewHolder(containerView: View) :
-    RecyclerView.ViewHolder(containerView) {
-    private val tvOrderSummaryProductName
-            by lazy { itemView.findViewById<AppCompatTextView>(R.id.tvOrderSummaryProductName) }
-    private val tvOrderSummaryProductPriceTotal
-            by lazy { itemView.findViewById<AppCompatTextView>(R.id.tvOrderSummaryProductPriceTotal) }
+class FileOrderCheckoutViewHolder(override val containerView: View) :
+    RecyclerView.ViewHolder(containerView),
+    LayoutContainer {
+    fun bind(
+        orderList: OrderListResponse
+    ) {
+        with(itemView) {
+            tvOrderSummaryProductName.text = orderList.name
+            tvOrderSummaryProductPriceTotal.text = orderList.price.toString()
+        }
 
-    fun bind(orderCheckoutModel: OrderCheckoutModel) {
-        tvOrderSummaryProductName.text = orderCheckoutModel.productName
-        tvOrderSummaryProductPriceTotal.text = orderCheckoutModel.productPrice
+        Glide.with(itemView.context)
+            .load(orderList.photo)
+            .circleCrop()
+            .into(itemView.ivOrderSummaryProduct)
     }
 }
+
+
