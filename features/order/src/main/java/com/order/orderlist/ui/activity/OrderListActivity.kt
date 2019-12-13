@@ -59,7 +59,6 @@ class OrderListActivity : AppCompatActivity() {
                     Toast.LENGTH_SHORT
                 ).show()
             } else {
-
                 Actions.openOrderCheckout(
                     this@OrderListActivity,
                     filtered.toTypedArray()
@@ -74,9 +73,13 @@ class OrderListActivity : AppCompatActivity() {
         mutableLiveDataOrderListSuccess.observeNotNull(this@OrderListActivity) {
             val orderListResponse = it as List<OrderListResponse>
             with(rvOrderList) {
-                adapter = OrderListAdapter(orderListResponse) { orderList ->
-                    filtered.add(orderList)
-                }
+                adapter = OrderListAdapter(orderListResponse,
+                    { orderListAdd ->
+                        filtered.add(orderListAdd)
+                    }, { orderListRemove ->
+                        filtered.remove(orderListRemove)
+                    })
+
                 animateOrderProductList()
             }
         }
