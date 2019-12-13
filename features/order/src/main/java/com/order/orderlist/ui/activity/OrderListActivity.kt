@@ -1,9 +1,10 @@
 package com.order.orderlist.ui.activity
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.actions.Actions
 import com.extensions.observeNotNull
@@ -21,6 +22,8 @@ class OrderListActivity : AppCompatActivity() {
         intent.extras?.getString("LOGIN_TOKEN")
     }
 
+    private val filtered = mutableListOf<OrderListResponse>()
+
     private val orderListViewModel by lazy {
         ViewModelProvider(this).get(OrderListViewModel::class.java)
     }
@@ -29,13 +32,7 @@ class OrderListActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_order_list)
         initObservers()
-        initComponents()
-    }
-
-    private fun initComponents() {
-        btnProceedToCart.setOnClickListener {
-            Actions.openOrderCheckout(this@OrderListActivity)
-        }
+        initButtonProceedToCart()
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
@@ -50,7 +47,24 @@ class OrderListActivity : AppCompatActivity() {
         }
         else -> {
             super.onOptionsItemSelected(item)
+        }
+    }
 
+    private fun initButtonProceedToCart() {
+        btnProceedToCart.setOnClickListener {
+            if (filtered.isEmpty()) {
+                Toast.makeText(
+                    this@OrderListActivity,
+                    R.string.order_list_select_item,
+                    Toast.LENGTH_SHORT
+                ).show()
+            } else {
+
+                Actions.openOrderCheckout(
+                    this@OrderListActivity,
+                    filtered.toTypedArray()
+                )
+            }
         }
     }
 
@@ -60,7 +74,9 @@ class OrderListActivity : AppCompatActivity() {
         mutableLiveDataOrderListSuccess.observeNotNull(this@OrderListActivity) {
             val orderListResponse = it as List<OrderListResponse>
             with(rvOrderList) {
-                adapter = OrderListAdapter(orderListResponse)
+                adapter = OrderListAdapter(orderListResponse) { orderList ->
+                    filtered.add(orderList)
+                }
                 animateOrderProductList()
             }
         }
@@ -70,7 +86,6 @@ class OrderListActivity : AppCompatActivity() {
         mutableLiveDataOrderListError.observeNotNull(this@OrderListActivity) {
             showErrorDialog(it)
         }
-
         orderListViewModel.getOrderList(token)
     }
 }

@@ -2,6 +2,9 @@ package com.actions
 
 import android.content.Context
 import android.content.Intent
+import android.os.Parcelable
+import com.network.model.orderlist.OrderListResponse
+import java.util.ArrayList
 
 object Actions {
 
@@ -16,7 +19,7 @@ object Actions {
 
     enum class Extras {
         LOGIN_TOKEN,
-        PRODUCT_ADDED
+        PRODUCT_FILTERED
     }
 
     fun openLogin(
@@ -46,12 +49,12 @@ object Actions {
     }
 
     fun openOrderCheckout(
-        context: Context
-//        product: String
+        context: Context,
+        filtered: Array<OrderListResponse>
     ) {
         context.startActivity(
             internalIntent(context, ACTION_ORDER_CHECKOUT)
-//                .putExtra(Extras.PRODUCT_ADDED.name, product)
+                .putExtra(Extras.PRODUCT_FILTERED.name, filtered)
         )
     }
 

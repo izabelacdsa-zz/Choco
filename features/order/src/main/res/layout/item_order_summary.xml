@@ -23,17 +23,9 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/margin_padding_medium"
             app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:text="Tomato" />
-
-        <androidx.appcompat.widget.AppCompatImageView
-            android:id="@+id/ivOrderSummaryProduct"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/margin_padding_small"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/tvOrderSummaryProductName"
-            app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/tvOrderSummaryProductPrice"
@@ -44,7 +36,6 @@
             android:text="@string/price"
             app:layout_constraintBottom_toBottomOf="@+id/tvOrderSummaryProductPriceTotal"
             app:layout_constraintEnd_toStartOf="@id/tvOrderSummaryProductPriceTotal"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/tvOrderSummaryProductPriceTotal" />
 
         <androidx.appcompat.widget.AppCompatTextView
@@ -56,7 +47,9 @@
             android:background="@drawable/background_price"
             android:text="@string/order_price"
             app:layout_constraintStart_toEndOf="@+id/tvOrderSummaryProductPrice"
-            app:layout_constraintTop_toBottomOf="@+id/tvOrderSummaryProductName" />
+            app:layout_constraintTop_toBottomOf="@+id/tvOrderSummaryProductName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

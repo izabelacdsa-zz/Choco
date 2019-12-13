@@ -14,7 +14,7 @@
     <string name="order_confirmation_title">Order created with success!</string>
 
     <string name="order_product_exit">Leave the App</string>
-
+    <string name="order_list_select_item">Select at least one item of the list to proceed</string>
 
 
 </resources>

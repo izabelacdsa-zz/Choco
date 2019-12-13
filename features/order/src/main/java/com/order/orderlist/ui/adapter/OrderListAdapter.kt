@@ -11,8 +11,8 @@ import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.item_order_list.view.*
 
 class OrderListAdapter(
-    private val orderListResponse: List<OrderListResponse>
-//    private val call: (order: OrderListResponse) -> Unit
+    private val orderListResponse: List<OrderListResponse>,
+    private val callClickProduct: (orderList: OrderListResponse) -> Unit
 ) : RecyclerView.Adapter<OrderListViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) =
@@ -27,19 +27,23 @@ class OrderListAdapter(
     override fun getItemCount() = orderListResponse.size
 
     override fun onBindViewHolder(holder: OrderListViewHolder, position: Int) =
-        holder.bind(orderListResponse[position])
+        holder.bind(orderListResponse[position], callClickProduct)
 }
 
 class OrderListViewHolder(override val containerView: View) :
     RecyclerView.ViewHolder(containerView),
     LayoutContainer {
-    fun bind(orderList: OrderListResponse) {
+    fun bind(
+        orderList: OrderListResponse,
+        callClickProduct: (orderList: OrderListResponse) -> Unit
+    ) {
         with(itemView) {
             tvOrderProductListPriceTotal.text = orderList.price.toString()
             tvOrderProductListName.text = orderList.name
             tvOrderProductListDescription.text = orderList.description
 
             ivShoppingCart.setOnClickListener {
+                callClickProduct.invoke(orderList)
                 ivShoppingCart.visibility = View.INVISIBLE
                 tvOrderAdded.visibility = View.VISIBLE
             }
