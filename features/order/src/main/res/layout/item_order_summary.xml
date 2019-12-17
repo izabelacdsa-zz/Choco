@@ -13,50 +13,61 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_padding_small">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivOrderSummaryProduct"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_padding_medium"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_shopping" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvOrderSummaryProductNameDescription"
+            style="@style/OrderProductListCardSubTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_padding_large"
+            android:text="@string/product_name"
+            app:layout_constraintStart_toEndOf="@+id/ivOrderSummaryProduct"
+            app:layout_constraintTop_toTopOf="parent"/>
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/tvOrderSummaryProductName"
             style="@style/OrderProductListCardTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/margin_padding_medium"
-            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="@dimen/margin_padding_large"
+            app:layout_constraintStart_toEndOf="@id/tvOrderSummaryProductNameDescription"
             app:layout_constraintTop_toTopOf="parent"
             tools:text="Tomato" />
-
-        <androidx.appcompat.widget.AppCompatImageView
-            android:id="@+id/ivOrderSummaryProduct"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_margin="@dimen/margin_padding_small"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/tvOrderSummaryProductName"
-            app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/tvOrderSummaryProductPrice"
             style="@style/OrderProductListCardSubTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/margin_padding_medium"
-            android:text="@string/price"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/tvOrderSummaryProductPriceTotal"
+            android:layout_marginStart="@dimen/margin_padding_large"
+            android:text="@string/unit_price"
             app:layout_constraintBottom_toBottomOf="@+id/tvOrderSummaryProductPriceTotal"
-            app:layout_constraintEnd_toStartOf="@id/tvOrderSummaryProductPriceTotal"/>
+            app:layout_constraintStart_toEndOf="@id/ivOrderSummaryProduct"
+            app:layout_constraintTop_toTopOf="@+id/tvOrderSummaryProductPriceTotal" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/tvOrderSummaryProductPriceTotal"
             style="@style/OrderProductListCardSubTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/margin_padding_medium"
+            android:layout_marginTop="@dimen/margin_padding_medium"
+            android:layout_marginStart="@dimen/margin_padding_small"
             android:background="@drawable/background_price"
             android:text="@string/order_price"
-            app:layout_constraintStart_toEndOf="@+id/tvOrderSummaryProductPrice"
-            app:layout_constraintTop_toBottomOf="@+id/tvOrderSummaryProductName"
-            app:layout_constraintBottom_toBottomOf="parent"/>
+            app:layout_constraintStart_toEndOf="@id/tvOrderSummaryProductPrice"
+            app:layout_constraintTop_toBottomOf="@+id/tvOrderSummaryProductName" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

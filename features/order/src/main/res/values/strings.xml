@@ -9,9 +9,13 @@
     <!-- Order Summary -->
     <string name="order_summary_title_menu">Order Summary</string>
     <string name="order_product_button">order products</string>
-    <string name="summary">Summary</string>
+    <string name="total_price">Total price</string>
     <string name="summary_price">%s</string>
     <string name="order_confirmation_title">Order created with success!</string>
+    <string name="unit_price">Unit price:</string>
+    <string name="product_name">Product:</string>
+
+
 
     <string name="order_product_exit">Leave the App</string>
     <string name="order_list_select_item">Select at least one item of the list to proceed</string>

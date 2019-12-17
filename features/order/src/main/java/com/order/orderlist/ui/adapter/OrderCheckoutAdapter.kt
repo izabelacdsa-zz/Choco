@@ -4,12 +4,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
 import com.network.model.orderlist.OrderListResponse
 import com.order.R
 import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.item_order_summary.view.*
-import java.util.ArrayList
+import java.util.*
 
 class OrderCheckoutAdapter(
     private var productList: ArrayList<OrderListResponse>
@@ -41,11 +40,6 @@ class FileOrderCheckoutViewHolder(override val containerView: View) :
             tvOrderSummaryProductName.text = orderList.name
             tvOrderSummaryProductPriceTotal.text = orderList.price.toString()
         }
-
-        Glide.with(itemView.context)
-            .load(orderList.photo)
-            .circleCrop()
-            .into(itemView.ivOrderSummaryProduct)
     }
 }
 

@@ -20,6 +20,7 @@ class OrderCheckoutActivity : AppCompatActivity() {
         setContentView(R.layout.activity_order_checkout)
         initAdapterProducts()
         initComponents()
+        sumProducts()
     }
 
     private fun initAdapterProducts() {
@@ -37,7 +38,7 @@ class OrderCheckoutActivity : AppCompatActivity() {
     }
 
     private fun sumProducts() {
+        val totalPrice: Int = this.filtered.map { it.price }.sum()
+        tvSummarySubtitlePrice.text = totalPrice.toString()
     }
-
-
 }
