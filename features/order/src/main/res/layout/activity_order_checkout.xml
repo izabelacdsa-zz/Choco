@@ -7,17 +7,6 @@
     android:background="@color/colorCardDefault"
     tools:context=".ordercheckout.ui.activity.OrderCheckoutActivity">
 
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/tvOrderSummaryTitle"
-        style="@style/OrderSummaryTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margin_padding_large"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-       android:text="@string/order_summary_title_menu" />
-
     <View
         android:id="@+id/viewOrder"
         android:layout_width="0dp"
@@ -27,7 +16,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginTop="@dimen/margin_padding_small"
         android:background="@drawable/background_order_summary"
-        app:layout_constraintTop_toBottomOf="@+id/tvOrderSummaryTitle"/>
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvOrderSummary"
@@ -75,4 +64,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:background="@drawable/background_order_button"/>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titleTextColor="@android:color/white" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

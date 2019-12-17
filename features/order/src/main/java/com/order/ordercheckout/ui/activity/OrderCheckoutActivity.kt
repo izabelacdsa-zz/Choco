@@ -21,6 +21,20 @@ class OrderCheckoutActivity : AppCompatActivity() {
         initAdapterProducts()
         initComponents()
         sumProducts()
+        initToolbar()
+    }
+
+    private fun initToolbar() {
+        setSupportActionBar(toolbar)
+        supportActionBar?.apply {
+            title = getString(R.string.order_checkout_toolbar)
+            setDisplayHomeAsUpEnabled(true)
+            setDisplayShowHomeEnabled(true)
+            setHomeAsUpIndicator(R.drawable.ic_back)
+        }
+        toolbar.setNavigationOnClickListener {
+            onBackPressed()
+        }
     }
 
     private fun initAdapterProducts() {

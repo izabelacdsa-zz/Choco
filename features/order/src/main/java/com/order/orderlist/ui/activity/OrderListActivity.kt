@@ -14,7 +14,9 @@ import com.network.model.orderlist.OrderListResponse
 import com.order.R
 import com.order.orderlist.ui.adapter.OrderListAdapter
 import com.order.orderlist.viewmodel.OrderListViewModel
+import kotlinx.android.synthetic.main.activity_order_checkout.*
 import kotlinx.android.synthetic.main.activity_order_list.*
+import kotlinx.android.synthetic.main.activity_order_list.toolbar
 
 class OrderListActivity : AppCompatActivity() {
 
@@ -33,6 +35,20 @@ class OrderListActivity : AppCompatActivity() {
         setContentView(R.layout.activity_order_list)
         initObservers()
         initButtonProceedToCart()
+        initToolbar()
+    }
+
+    private fun initToolbar() {
+        setSupportActionBar(toolbar)
+        supportActionBar?.apply {
+            title = getString(R.string.order_list_toolbar)
+            setDisplayHomeAsUpEnabled(true)
+            setDisplayShowHomeEnabled(true)
+            setHomeAsUpIndicator(R.drawable.ic_back)
+        }
+        toolbar.setNavigationOnClickListener {
+            onBackPressed()
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {

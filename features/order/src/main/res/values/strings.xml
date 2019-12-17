@@ -19,6 +19,9 @@
 
     <string name="order_product_exit">Leave the App</string>
     <string name="order_list_select_item">Select at least one item of the list to proceed</string>
+    <string name="order_checkout_toolbar">Order Summary</string>
+    <string name="order_list_toolbar">Order Products</string>
+
 
 
 </resources>

@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.order">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
-    <application android:usesCleartextTraffic="true">
+    <application android:usesCleartextTraffic="true"
+        tools:targetApi="m">
         <activity
             android:name=".ordercheckout.ui.activity.ConfirmationOrderActivity"
             android:launchMode="singleTop"
             android:screenOrientation="portrait">
             <intent-filter>
-                <action android:name=
-                    "com.features.order.ordercheckout.ui.activity.ConfirmationOrderActivity" />
+                <action android:name="com.features.order.ordercheckout.ui.activity.ConfirmationOrderActivity" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -20,8 +21,7 @@
             android:name=".ordercheckout.ui.activity.OrderCheckoutActivity"
             android:label="@string/order_summary_title_menu"
             android:launchMode="singleTop"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme">
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="com.features.order.ordercheckout.ui.activity.OrderCheckoutActivity" />
 
@@ -32,8 +32,7 @@
             android:name=".orderlist.ui.activity.OrderListActivity"
             android:label="@string/order_title_menu"
             android:launchMode="singleTop"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme">
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="com.features.order.orderlist.ui.activity.OrderListActivity" />
 
