@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="OrderProductListCardTitle">
+        <item name="android:fontFamily">@font/aclonica</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/text_large</item>
+    </style>
+
+    <style name="OrderProductListCardSubTitle">
+        <item name="android:fontFamily">@font/alegreya_sans_sc_medium</item>
+        <item name="android:textColor">@color/colorGreyText</item>
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+
+    <style name="OrderSummaryTitle">
+        <item name="android:fontFamily">@font/alegreya_sans_sc_medium</item>
+        <item name="android:textColor">@color/colorGreyText</item>
+        <item name="android:textSize">@dimen/text_large</item>
+    </style>
+
+    <style name="OrderProductListCardDescription">
+        <item name="android:fontFamily">@font/assistant</item>
+        <item name="android:textColor">@color/colorGreyText</item>
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+
+    <style name="OrderProductListCardAdded">
+        <item name="android:fontFamily">@font/assistant_semibold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/colorAdded</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+    </style>
+
+    <style name="OrderProductListButtonAdd">
+        <item name="android:fontFamily">@font/assistant</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ConfirmationOrderTitle">
+        <item name="android:fontFamily">@font/alegreya_sans_sc_medium</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_large</item>
+        </style>
+</resources>

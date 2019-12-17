@@ -50,10 +50,9 @@ class LoginActivity : AppCompatActivity() {
 
     private fun initObservers() = with(loginViewModel) {
         mutableLiveDataLoginSuccess.observeNotNull(this@LoginActivity) { userData ->
-            Toast.makeText(this@LoginActivity, "Its toast!", Toast.LENGTH_SHORT).show()
-//            val token = userData.token
-//            Actions.openOrderList(this@LoginActivity, token)
-//            finish()
+            val token = userData.token
+            Actions.openOrderList(this@LoginActivity, token)
+            finish()
         }
 
         mutableLiveDataLoading.observeNotNull(this@LoginActivity) { showProgress ->

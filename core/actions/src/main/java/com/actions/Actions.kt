@@ -2,14 +2,24 @@ package com.actions
 
 import android.content.Context
 import android.content.Intent
+import android.os.Parcelable
+import com.network.model.orderlist.OrderListResponse
+import java.util.ArrayList
 
 object Actions {
 
-    private const val ACTION_LOGIN = "com.features.login.activity.LoginActivity"
-    private const val ACTION_ORDER_LIST = "com.features.orderlist.activity.OrderListActivity"
+    private const val ACTION_LOGIN =
+        "com.features.login.activity.LoginActivity"
+    private const val ACTION_ORDER_LIST =
+        "com.features.order.orderlist.ui.activity.OrderListActivity"
+    private const val ACTION_ORDER_CHECKOUT =
+        "com.features.order.ordercheckout.ui.activity.OrderCheckoutActivity"
+    private const val ACTION_OPEN_CONFIRMATION_ORDER =
+        "com.features.order.ordercheckout.ui.activity.ConfirmationOrderActivity"
 
     enum class Extras {
-        EXTRA_TOKEN_LOGIN
+        LOGIN_TOKEN,
+        PRODUCT_FILTERED
     }
 
     fun openLogin(
@@ -18,14 +28,41 @@ object Actions {
         context.startActivity(internalIntent(context, ACTION_LOGIN))
     }
 
+    fun openLoginFromOrderList(
+        context: Context
+    ) {
+        context.startActivity(
+            internalIntent(context, ACTION_LOGIN)
+                .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP)
+        )
+    }
+
     fun openOrderList(
         context: Context,
         token: String
     ) {
         context.startActivity(
             internalIntent(context, ACTION_ORDER_LIST)
-                .putExtra(Extras.EXTRA_TOKEN_LOGIN.name, token)
+                .putExtra(Extras.LOGIN_TOKEN.name, token)
                 .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP)
+        )
+    }
+
+    fun openOrderCheckout(
+        context: Context,
+        filtered: ArrayList<OrderListResponse>
+    ) {
+        context.startActivity(
+            internalIntent(context, ACTION_ORDER_CHECKOUT)
+                .putParcelableArrayListExtra(Extras.PRODUCT_FILTERED.name, filtered)
+        )
+    }
+
+    fun openConfirmationOrder(
+        context: Context
+    ) {
+        context.startActivity(
+            internalIntent(context, ACTION_OPEN_CONFIRMATION_ORDER)
         )
     }
 

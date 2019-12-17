@@ -1,4 +1,4 @@
 include ':app',
         'core:base', 'core:actions', 'core:network',
-        'features:login'
+        'features:login', 'features:order'
 rootProject.name='Choco'
