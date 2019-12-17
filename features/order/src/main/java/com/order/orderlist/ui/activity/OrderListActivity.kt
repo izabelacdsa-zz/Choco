@@ -61,7 +61,7 @@ class OrderListActivity : AppCompatActivity() {
             } else {
                 Actions.openOrderCheckout(
                     this@OrderListActivity,
-                    filtered.toTypedArray()
+                    ArrayList(filtered)
                 )
             }
         }

@@ -50,11 +50,11 @@ object Actions {
 
     fun openOrderCheckout(
         context: Context,
-        filtered: Array<OrderListResponse>
+        filtered: ArrayList<OrderListResponse>
     ) {
         context.startActivity(
             internalIntent(context, ACTION_ORDER_CHECKOUT)
-                .putExtra(Extras.PRODUCT_FILTERED.name, filtered)
+                .putParcelableArrayListExtra(Extras.PRODUCT_FILTERED.name, filtered)
         )
     }
 
