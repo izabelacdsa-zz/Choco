@@ -52,12 +52,12 @@
         "source": "C:\\Users\\izabela.c.araujo\\.gradle\\caches\\transforms-2\\files-2.1\\eb992c70c66706d4c9369c865a81a125\\material-1.2.0-alpha02\\res\\layout\\test_toolbar.xml"
     },
     {
-        "merged": "C:\\Users\\izabela.c.araujo\\StudioProjects\\Choco\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_dialog_material_background.xml.flat",
-        "source": "C:\\Users\\izabela.c.araujo\\.gradle\\caches\\transforms-2\\files-2.1\\93bc303e0edf41378a70a682ebb74605\\appcompat-1.1.0\\res\\drawable-v21\\abc_dialog_material_background.xml"
-    },
-    {
         "merged": "C:\\Users\\izabela.c.araujo\\StudioProjects\\Choco\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_calendar_month.xml.flat",
         "source": "C:\\Users\\izabela.c.araujo\\.gradle\\caches\\transforms-2\\files-2.1\\eb992c70c66706d4c9369c865a81a125\\material-1.2.0-alpha02\\res\\layout\\mtrl_calendar_month.xml"
+    },
+    {
+        "merged": "C:\\Users\\izabela.c.araujo\\StudioProjects\\Choco\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_dialog_material_background.xml.flat",
+        "source": "C:\\Users\\izabela.c.araujo\\.gradle\\caches\\transforms-2\\files-2.1\\93bc303e0edf41378a70a682ebb74605\\appcompat-1.1.0\\res\\drawable-v21\\abc_dialog_material_background.xml"
     },
     {
         "merged": "C:\\Users\\izabela.c.araujo\\StudioProjects\\Choco\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_tooltip.xml.flat",
@@ -116,16 +116,16 @@
         "source": "C:\\Users\\izabela.c.araujo\\.gradle\\caches\\transforms-2\\files-2.1\\93bc303e0edf41378a70a682ebb74605\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
-        "merged": "C:\\Users\\izabela.c.araujo\\StudioProjects\\Choco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_avd_show_password.xml.flat",
-        "source": "C:\\Users\\izabela.c.araujo\\.gradle\\caches\\transforms-2\\files-2.1\\eb992c70c66706d4c9369c865a81a125\\material-1.2.0-alpha02\\res\\drawable\\avd_show_password.xml"
+        "merged": "C:\\Users\\izabela.c.araujo\\StudioProjects\\Choco\\app\\build\\intermediates\\res\\merged\\debug\\color_material_slider_thumb_color.xml.flat",
+        "source": "C:\\Users\\izabela.c.araujo\\.gradle\\caches\\transforms-2\\files-2.1\\eb992c70c66706d4c9369c865a81a125\\material-1.2.0-alpha02\\res\\color\\material_slider_thumb_color.xml"
     },
     {
         "merged": "C:\\Users\\izabela.c.araujo\\StudioProjects\\Choco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mtrl_ic_error.xml.flat",
         "source": "C:\\Users\\izabela.c.araujo\\.gradle\\caches\\transforms-2\\files-2.1\\eb992c70c66706d4c9369c865a81a125\\material-1.2.0-alpha02\\res\\drawable\\mtrl_ic_error.xml"
     },
     {
-        "merged": "C:\\Users\\izabela.c.araujo\\StudioProjects\\Choco\\app\\build\\intermediates\\res\\merged\\debug\\color_material_slider_thumb_color.xml.flat",
-        "source": "C:\\Users\\izabela.c.araujo\\.gradle\\caches\\transforms-2\\files-2.1\\eb992c70c66706d4c9369c865a81a125\\material-1.2.0-alpha02\\res\\color\\material_slider_thumb_color.xml"
+        "merged": "C:\\Users\\izabela.c.araujo\\StudioProjects\\Choco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_avd_show_password.xml.flat",
+        "source": "C:\\Users\\izabela.c.araujo\\.gradle\\caches\\transforms-2\\files-2.1\\eb992c70c66706d4c9369c865a81a125\\material-1.2.0-alpha02\\res\\drawable\\avd_show_password.xml"
     },
     {
         "merged": "C:\\Users\\izabela.c.araujo\\StudioProjects\\Choco\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",

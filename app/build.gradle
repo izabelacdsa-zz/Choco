@@ -19,6 +19,11 @@ android {
             sourceCompatibility = "8"
         }
     }
+
+    testOptions {
+        unitTests.returnDefaultValues = true
+    }
+
     buildTypes {
         release {
             minifyEnabled false
@@ -38,9 +43,14 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.core:core-ktx:1.1.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    implementation 'junit:junit:4.12'
+    implementation 'androidx.test:runner:1.2.0'
+    implementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'androidx.test.ext:junit:1.1.1'
+    implementation  'androidx.test:rules:1.2.0'
+    implementation 'androidx.test.ext:truth:1.2.0'
+    implementation 'androidx.test.ext:junit:1.1.1'
 
     implementation project(':core:base')
     implementation project(':core:actions')
@@ -49,22 +59,8 @@ dependencies {
     implementation project(':features:login')
     implementation project(':features:order')
 
-    //region: Unit Test
-    implementation "androidx.arch.core:core-testing:2.1.0"
-    implementation "androidx.test:core:1.2.0"
-    implementation "io.mockk:mockk:1.9.3"
-    implementation "io.mockk:mockk-android:1.9.3"
-    implementation "junit:junit:4.12"
-    implementation "com.squareup.okhttp3:mockwebserver:3.9.1"
-    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-test:1.3.2'
 
-    //region: Integrated tests
-    implementation "androidx.test.ext:truth:1.2.0"
-    implementation "androidx.test.ext:junit:1.1.1"
-    implementation "androidx.test.espresso:espresso-core:3.2.0"
-    implementation "androidx.test.espresso:espresso-contrib:3.2.0"
-    implementation "androidx.test.espresso:espresso-intents:3.2.0"
-    implementation "androidx.test.espresso:espresso-idling-resource:3.2.0"
-    implementation "androidx.test:runner:1.2.0"
-    implementation "androidx.test:orchestrator:1.2.0"
+
+
+
 }
