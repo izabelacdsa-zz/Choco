@@ -13,7 +13,6 @@
     </string-array></file><file path="C:\Users\izabela.c.araujo\StudioProjects\Choco\features\login\src\main\res\values\preloaded_fonts.xml" qualifiers=""><array name="preloaded_fonts" translatable="false">
         <item>@font/aclonica</item>
         <item>@font/acme</item>
-        <item>@font/amaranth</item>
         <item>@font/amita</item>
     </array></file><file path="C:\Users\izabela.c.araujo\StudioProjects\Choco\features\login\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">login</string><string name="login_hint_email">E-mail</string><string name="login_hint_pass">Password</string><string name="login_sign_in">Sign in</string><string name="login_fill_spaces">Please fill all fields correctly.</string></file><file path="C:\Users\izabela.c.araujo\StudioProjects\Choco\features\login\src\main\res\values\styles.xml" qualifiers=""><style name="LoginTheme" parent="Theme.AppCompat.NoActionBar">
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>

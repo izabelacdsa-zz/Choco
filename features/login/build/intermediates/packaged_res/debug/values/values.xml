@@ -17,7 +17,6 @@
     <array name="preloaded_fonts" translatable="false">
         <item>@font/aclonica</item>
         <item>@font/acme</item>
-        <item>@font/amaranth</item>
         <item>@font/amita</item>
     </array>
     <color name="colorloginButton">#7fcecb</color>

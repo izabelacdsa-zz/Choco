@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\izabela.c.araujo\\StudioProjects\\Choco\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lo\\values-lo.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\izabela.c.araujo\\.gradle\\caches\\transforms-2\\files-2.1\\9cb08605457160e549bf07c97944b891\\core-1.2.0-rc01\\res\\values-lo\\values-lo.xml",
+                    "source": "C:\\Users\\izabela.c.araujo\\.gradle\\caches\\transforms-2\\files-2.1\\009e1e961c85593e58c8e6319d1fc7ca\\core-1.2.0-rc01\\res\\values-lo\\values-lo.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\izabela.c.araujo\\.gradle\\caches\\transforms-2\\files-2.1\\0c1936c30a85396091c438d3d714fea2\\appcompat-1.1.0\\res\\values-lo\\values-lo.xml",
+                    "source": "C:\\Users\\izabela.c.araujo\\.gradle\\caches\\transforms-2\\files-2.1\\93bc303e0edf41378a70a682ebb74605\\appcompat-1.1.0\\res\\values-lo\\values-lo.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
