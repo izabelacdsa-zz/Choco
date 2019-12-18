@@ -1,4 +1,4 @@
-package com.login.instrumented.ui
+package com.choco.login
 
 import okhttp3.mockwebserver.MockWebServer
 import org.junit.After
@@ -25,7 +25,6 @@ class LoginActivityTest {
     @Test
     fun shouldOpenLoginScreen_WithButtonLoginEnabled() {
         robot
-            .givenLogin200Response()
             .launchActivity()
             .thenLoginButtonIsEnabled()
     }
@@ -33,7 +32,6 @@ class LoginActivityTest {
     @Test
     fun shouldLogin_WhenEmailAndPasswordFieldsAreFilledCorrectly() {
         robot
-            .givenLogin200Response()
             .launchActivity()
             .whenClickEmailInput()
             .whenTypeEmail("user@choco.com")

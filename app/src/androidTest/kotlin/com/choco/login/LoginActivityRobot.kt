@@ -1,4 +1,4 @@
-package com.login.instrumented.ui
+package com.choco.login
 
 import android.content.Intent
 import androidx.test.core.app.ActivityScenario
@@ -9,10 +9,10 @@ import androidx.test.espresso.assertion.ViewAssertions
 import androidx.test.espresso.intent.Intents.intended
 import androidx.test.espresso.intent.matcher.IntentMatchers.hasComponent
 import androidx.test.espresso.matcher.ViewMatchers
-import com.login.R
+import com.choco.R
+import com.choco.testutils.AssetsLoader
+import com.choco.testutils.enqueue200Response
 import com.login.activity.LoginActivity
-import com.login.instrumented.testutils.AssetsLoader
-import com.login.instrumented.testutils.enqueue200Response
 import com.order.orderlist.ui.activity.OrderListActivity
 import okhttp3.mockwebserver.MockWebServer
 
@@ -23,11 +23,6 @@ class LoginActivityRobot(private val server: MockWebServer) {
     fun launchActivity() = apply {
         val intent = Intent(ApplicationProvider.getApplicationContext(), LoginActivity::class.java)
         scenario = ActivityScenario.launch(intent)
-    }
-
-    fun givenLogin200Response() = apply {
-        val response = AssetsLoader.loadAsset("post_add_user_response_200.json")
-        server.enqueue200Response(response)
     }
 
     fun whenClickOnLogin() = apply {
