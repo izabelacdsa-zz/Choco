@@ -10,7 +10,11 @@ import com.network.model.login.LoginRequest
 import com.network.model.login.LoginResponse
 import io.mockk.*
 import io.mockk.impl.annotations.MockK
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.newSingleThreadContext
 import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.test.resetMain
+import kotlinx.coroutines.test.setMain
 import org.junit.After
 import org.junit.Before
 import org.junit.Rule
@@ -19,6 +23,7 @@ import org.junit.rules.TestRule
 
 class LoginViewModelTest {
 
+    private val mainThreadSurrogate = newSingleThreadContext("UI thread")
     @Rule
     @JvmField
     var rule: TestRule = InstantTaskExecutorRule()
@@ -36,18 +41,21 @@ class LoginViewModelTest {
 
     @Before
     fun setup() {
+        Dispatchers.setMain(mainThreadSurrogate)
         MockKAnnotations.init(this)
         viewModel = LoginViewModel()
         viewModel.mutableLiveDataLoginSuccess.observeForever(observerLogin)
         viewModel.mutableLiveDataLoginError.observeForever(observerLiveDataError)
-//        viewModel.mutableLiveDataLoading.observeForever(observerLiveDataProgress)
+        viewModel.mutableLiveDataLoading.observeForever(observerLiveDataProgress)
     }
 
     @After
     fun tearDown() {
+        Dispatchers.resetMain()
+        mainThreadSurrogate.close()
         viewModel.mutableLiveDataLoginSuccess.removeObserver(observerLogin)
         viewModel.mutableLiveDataLoginError.observeForever(observerLiveDataError)
-//        viewModel.mutableLiveDataLoading.removeObserver(observerLiveDataProgress)
+        viewModel.mutableLiveDataLoading.removeObserver(observerLiveDataProgress)
     }
 
     @Test
