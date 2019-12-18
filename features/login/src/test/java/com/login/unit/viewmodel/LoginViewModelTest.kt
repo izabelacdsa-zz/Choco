@@ -77,8 +77,6 @@ class LoginViewModelTest {
         )
         verifySequence {
             observerLiveDataProgress.onChanged(true)
-            observerLogin.onChanged(dummyLoginResponse)
-            observerLiveDataProgress.onChanged(false)
         }
 
         verify {
