@@ -10,9 +10,7 @@ import com.network.model.login.LoginRequest
 import com.network.model.login.LoginResponse
 import io.mockk.*
 import io.mockk.impl.annotations.MockK
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.newSingleThreadContext
-import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.*
 import kotlinx.coroutines.test.resetMain
 import kotlinx.coroutines.test.setMain
 import org.junit.After
@@ -23,6 +21,7 @@ import org.junit.rules.TestRule
 
 class LoginViewModelTest {
 
+    @UseExperimental(ObsoleteCoroutinesApi::class)
     private val mainThreadSurrogate = newSingleThreadContext("UI thread")
     @Rule
     @JvmField
@@ -39,6 +38,7 @@ class LoginViewModelTest {
     @MockK(relaxed = true)
     private lateinit var observerLiveDataError: Observer<HasError>
 
+    @ExperimentalCoroutinesApi
     @Before
     fun setup() {
         Dispatchers.setMain(mainThreadSurrogate)
@@ -49,6 +49,7 @@ class LoginViewModelTest {
         viewModel.mutableLiveDataLoading.observeForever(observerLiveDataProgress)
     }
 
+    @ExperimentalCoroutinesApi
     @After
     fun tearDown() {
         Dispatchers.resetMain()
