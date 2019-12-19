@@ -61,4 +61,5 @@ dependencies {
     implementation project(':core:actions')
     implementation project(':features:login')
     implementation project(':features:order')
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
 }
