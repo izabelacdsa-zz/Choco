@@ -1,356 +1,393 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml:2:1-26:12
-MERGED from [:features:login] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-29:12
-MERGED from [:features:order] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-55:12
-MERGED from [:core:base] C:\Users\izabela.c.araujo\StudioProjects\Choco\core\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [:core:actions] C:\Users\izabela.c.araujo\StudioProjects\Choco\core\actions\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [:core:network] C:\Users\izabela.c.araujo\StudioProjects\Choco\core\network\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.android.material:material:1.2.0-alpha02] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\eb992c70c66706d4c9369c865a81a125\material-1.2.0-alpha02\AndroidManifest.xml:17:1-24:12
-MERGED from [com.airbnb.android:lottie:3.0.7] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\ea7710cdb8909e9a5d56acb794599105\lottie-3.0.7\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\93bc303e0edf41378a70a682ebb74605\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core-ktx:1.2.0-rc01] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\ba3287adc74e26bd50a860670dcc639c\core-ktx-1.2.0-rc01\AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\140e197d83343f156dc84b9dfd575292\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.test.ext:junit:1.1.1] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\6eba6c5b575892eaa14a45d816817b22\junit-1.1.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.test:rules:1.2.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\d0f407b099cc0025c571324a61a0b45e\rules-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.test.ext:truth:1.2.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\0f91c382b23c106bc6d010789dbeb8ff\truth-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0-rc03] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\9305411aa0504b2c1f2e1227810b4abc\lifecycle-viewmodel-ktx-2.2.0-rc03\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\12e3091321384669e8f586318ef1d685\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\24dca681329175a03d53e389a45c201a\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\4681ba69b992d1066d0f86ff962fa316\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.test:core:1.2.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\1103ae60a35c205df1c98257189f07c5\core-1.2.0\AndroidManifest.xml:17:1-50:12
-MERGED from [androidx.test:runner:1.2.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\149c1ffbaa8ccbb6b789d6708935277e\runner-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.test:monitor:1.2.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\1cb511af2544d8044fd7b732ee737301\monitor-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0-rc03] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\08ca6a2ebcc840c3f30a51908015c350\lifecycle-extensions-2.2.0-rc03\AndroidManifest.xml:17:1-27:12
-MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\9b7c3aab5e02c39af96b6901c86cfb8a\jetified-glide-4.9.0\AndroidManifest.xml:2:1-12:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\50dbf37e10b7bd5c1bf2c0fff2d83243\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\0aa511544b3ee110c63a1446fbe2c5e4\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-rc01] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\5e98f2f4516813ee386b1b699422e5d8\coordinatorlayout-1.1.0-rc01\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0-rc01] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\626f7a14b4553bc0d1112f7908602269\viewpager2-1.0.0-rc01\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0-rc01] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\437ad1432ae9878d6945becdfe5d3d70\recyclerview-1.1.0-rc01\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.2.0-rc01] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\1634a2ce32bcd415a6f8fb67c2d46436\fragment-1.2.0-rc01\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\29a6593c42d1f7975c962d8d95b5ed40\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\e7c663d08d0478d87f07969d53991dd8\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\b08f47ec7f7853b48a9a1010edaf7c7b\transition-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\9d820099421ea00e96b2625ea6c19c4c\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.1.0-rc01] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\15a67a80c162d67ac3944a5847992fca\activity-1.1.0-rc01\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.2.0-rc01] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\009e1e961c85593e58c8e6319d1fc7ca\core-1.2.0-rc01\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0-rc03] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\4ec46f6b918a6e32e2deff11e586af2e\lifecycle-process-2.2.0-rc03\AndroidManifest.xml:17:1-32:12
-MERGED from [androidx.lifecycle:lifecycle-service:2.2.0-rc03] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\0501a1406a071569e979db6754876312\lifecycle-service-2.2.0-rc03\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0-rc03] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\e948305c67e2804e6938b930e1aafc52\lifecycle-runtime-2.2.0-rc03\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\2958bfeff871706e37e023803895bb19\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\dfb1f22e942c156be6987681931b441d\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\bd33ba3bda4a1773abff4e58849fc64f\jetified-gifdecoder-4.9.0\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0-rc03] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\0b0dc89cab411e894c83912278042914\lifecycle-livedata-2.2.0-rc03\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0-rc01] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\24584d2b4f3e02373b15f3ba19723dc9\lifecycle-viewmodel-savedstate-1.0.0-rc01\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0-rc03] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\2d791ac891240b4133a695842182bbc3\lifecycle-livedata-core-2.2.0-rc03\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\b0af4bd25e8bd0125497169244a78c79\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\7c6636ec62ad2c4f482a80212e8dde81\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0-rc03] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\33515ee9af2edef01df6dc233e617ec9\lifecycle-viewmodel-2.2.0-rc03\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\225c82d8c731985fb415caed199cb7eb\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml:2:1-26:12
+MERGED from [:features:login] C:\Users\izabe\StudioProjects\Choco\features\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-29:12
+MERGED from [:features:order] C:\Users\izabe\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-55:12
+MERGED from [:core:base] C:\Users\izabe\StudioProjects\Choco\core\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:core:actions] C:\Users\izabe\StudioProjects\Choco\core\actions\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:core:network] C:\Users\izabe\StudioProjects\Choco\core\network\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.test.espresso:espresso-contrib:3.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\e7c8db1ca1738da28efb751727b0ef75\espresso-contrib-3.2.0\AndroidManifest.xml:17:1-26:12
+MERGED from [com.google.android.material:material:1.2.0-alpha02] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\eb992c70c66706d4c9369c865a81a125\material-1.2.0-alpha02\AndroidManifest.xml:17:1-24:12
+MERGED from [com.airbnb.android:lottie:3.0.7] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\ea7710cdb8909e9a5d56acb794599105\lottie-3.0.7\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\93bc303e0edf41378a70a682ebb74605\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.2.0-rc01] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\ba3287adc74e26bd50a860670dcc639c\core-ktx-1.2.0-rc01\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\140e197d83343f156dc84b9dfd575292\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.test.espresso:espresso-intents:3.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\bd63db5f2909254d08438137e0af6416\espresso-intents-3.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test.espresso:espresso-core:3.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\10e185e1e788b7b7684ed77ea58716db\espresso-core-3.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test.ext:junit:1.1.1] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\6eba6c5b575892eaa14a45d816817b22\junit-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test:rules:1.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\d0f407b099cc0025c571324a61a0b45e\rules-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test.ext:truth:1.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\0f91c382b23c106bc6d010789dbeb8ff\truth-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0-rc03] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\9305411aa0504b2c1f2e1227810b4abc\lifecycle-viewmodel-ktx-2.2.0-rc03\AndroidManifest.xml:17:1-24:12
+MERGED from [io.mockk:mockk-android:1.9.3] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\00c4c1663f6ab8c94847cd72c1a6ad71\mockk-android-1.9.3\AndroidManifest.xml:2:1-10:12
+MERGED from [io.mockk:mockk-agent-android:1.9.3] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\a6518ea5649f17cf76033a4a4b42c03f\mockk-agent-android-1.9.3\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\12e3091321384669e8f586318ef1d685\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\24dca681329175a03d53e389a45c201a\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\4681ba69b992d1066d0f86ff962fa316\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.test:runner:1.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\149c1ffbaa8ccbb6b789d6708935277e\runner-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test:core:1.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\1103ae60a35c205df1c98257189f07c5\core-1.2.0\AndroidManifest.xml:17:1-50:12
+MERGED from [androidx.test:monitor:1.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\1cb511af2544d8044fd7b732ee737301\monitor-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0-rc03] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\08ca6a2ebcc840c3f30a51908015c350\lifecycle-extensions-2.2.0-rc03\AndroidManifest.xml:17:1-27:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\89d85a3dcf7d278853c170cb2710535b\jetified-glide-4.9.0\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-rc01] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\626f7a14b4553bc0d1112f7908602269\viewpager2-1.0.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.0-rc01] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\1634a2ce32bcd415a6f8fb67c2d46436\fragment-1.2.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\29a6593c42d1f7975c962d8d95b5ed40\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\50dbf37e10b7bd5c1bf2c0fff2d83243\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\0aa511544b3ee110c63a1446fbe2c5e4\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-rc01] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\5e98f2f4516813ee386b1b699422e5d8\coordinatorlayout-1.1.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-rc01] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\437ad1432ae9878d6945becdfe5d3d70\recyclerview-1.1.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\e7c663d08d0478d87f07969d53991dd8\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\b08f47ec7f7853b48a9a1010edaf7c7b\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\3c86d6f3154e362e2ac7bcaee0a8b231\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\9d820099421ea00e96b2625ea6c19c4c\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0-rc01] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\15a67a80c162d67ac3944a5847992fca\activity-1.1.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.2.0-rc01] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\009e1e961c85593e58c8e6319d1fc7ca\core-1.2.0-rc01\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0-rc03] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\4ec46f6b918a6e32e2deff11e586af2e\lifecycle-process-2.2.0-rc03\AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0-rc03] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\0501a1406a071569e979db6754876312\lifecycle-service-2.2.0-rc03\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0-rc03] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\e948305c67e2804e6938b930e1aafc52\lifecycle-runtime-2.2.0-rc03\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-testing:2.1.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\782baef231832c2b9637658bcce2a08f\core-testing-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\2958bfeff871706e37e023803895bb19\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\dfb1f22e942c156be6987681931b441d\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\28298c468e2301880864f14851a6a3c7\jetified-gifdecoder-4.9.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0-rc03] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\0b0dc89cab411e894c83912278042914\lifecycle-livedata-2.2.0-rc03\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0-rc01] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\24584d2b4f3e02373b15f3ba19723dc9\lifecycle-viewmodel-savedstate-1.0.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0-rc03] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\2d791ac891240b4133a695842182bbc3\lifecycle-livedata-core-2.2.0-rc03\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\b0af4bd25e8bd0125497169244a78c79\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\7c6636ec62ad2c4f482a80212e8dde81\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0-rc03] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\33515ee9af2edef01df6dc233e617ec9\lifecycle-viewmodel-2.2.0-rc03\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\225c82d8c731985fb415caed199cb7eb\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\b49a3cb0a0186e54d18812f26e6e4ce2\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\c9eb4efc2103a05ad6203fd4d78919fe\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\a7ac5d9832a55e02f327cca94b1b2adb\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.test.espresso:espresso-idling-resource:3.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\238df2ba24bd09b698e6edd6d79d0162\espresso-idling-resource-3.2.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
-		ADDED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml:4:5-24
-		INJECTED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml:4:5-24
+		INJECTED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml:2:1-26:12
-		INJECTED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml:2:1-26:12
+		INJECTED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml:2:1-26:12
-		INJECTED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml:2:1-26:12
+		INJECTED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml:6:5-67
-MERGED from [:features:order] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-67
-MERGED from [:features:order] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-67
+ADDED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [:features:order] C:\Users\izabe\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-67
+MERGED from [:features:order] C:\Users\izabe\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-67
 	android:name
-		ADDED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml:6:22-64
+		ADDED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml:8:5-24:19
-MERGED from [:features:login] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-27:19
-MERGED from [:features:login] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-27:19
-MERGED from [:features:order] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-53:19
-MERGED from [:features:order] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-53:19
-MERGED from [com.google.android.material:material:1.2.0-alpha02] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\eb992c70c66706d4c9369c865a81a125\material-1.2.0-alpha02\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.2.0-alpha02] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\eb992c70c66706d4c9369c865a81a125\material-1.2.0-alpha02\AndroidManifest.xml:22:5-20
-MERGED from [com.airbnb.android:lottie:3.0.7] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\ea7710cdb8909e9a5d56acb794599105\lottie-3.0.7\AndroidManifest.xml:9:5-20
-MERGED from [com.airbnb.android:lottie:3.0.7] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\ea7710cdb8909e9a5d56acb794599105\lottie-3.0.7\AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\140e197d83343f156dc84b9dfd575292\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\140e197d83343f156dc84b9dfd575292\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
-MERGED from [androidx.test:core:1.2.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\1103ae60a35c205df1c98257189f07c5\core-1.2.0\AndroidManifest.xml:26:5-48:19
-MERGED from [androidx.test:core:1.2.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\1103ae60a35c205df1c98257189f07c5\core-1.2.0\AndroidManifest.xml:26:5-48:19
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0-rc03] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\08ca6a2ebcc840c3f30a51908015c350\lifecycle-extensions-2.2.0-rc03\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0-rc03] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\08ca6a2ebcc840c3f30a51908015c350\lifecycle-extensions-2.2.0-rc03\AndroidManifest.xml:24:5-25:19
-MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\9b7c3aab5e02c39af96b6901c86cfb8a\jetified-glide-4.9.0\AndroidManifest.xml:10:5-20
-MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\9b7c3aab5e02c39af96b6901c86cfb8a\jetified-glide-4.9.0\AndroidManifest.xml:10:5-20
-MERGED from [androidx.core:core:1.2.0-rc01] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\009e1e961c85593e58c8e6319d1fc7ca\core-1.2.0-rc01\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.2.0-rc01] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\009e1e961c85593e58c8e6319d1fc7ca\core-1.2.0-rc01\AndroidManifest.xml:24:5-89
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0-rc03] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\4ec46f6b918a6e32e2deff11e586af2e\lifecycle-process-2.2.0-rc03\AndroidManifest.xml:24:5-30:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0-rc03] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\4ec46f6b918a6e32e2deff11e586af2e\lifecycle-process-2.2.0-rc03\AndroidManifest.xml:24:5-30:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\2958bfeff871706e37e023803895bb19\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\2958bfeff871706e37e023803895bb19\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\bd33ba3bda4a1773abff4e58849fc64f\jetified-gifdecoder-4.9.0\AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\bd33ba3bda4a1773abff4e58849fc64f\jetified-gifdecoder-4.9.0\AndroidManifest.xml:9:5-20
+ADDED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml:8:5-24:19
+MERGED from [:features:login] C:\Users\izabe\StudioProjects\Choco\features\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-27:19
+MERGED from [:features:login] C:\Users\izabe\StudioProjects\Choco\features\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-27:19
+MERGED from [:features:order] C:\Users\izabe\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-53:19
+MERGED from [:features:order] C:\Users\izabe\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-53:19
+MERGED from [androidx.test.espresso:espresso-contrib:3.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\e7c8db1ca1738da28efb751727b0ef75\espresso-contrib-3.2.0\AndroidManifest.xml:24:5-20
+MERGED from [androidx.test.espresso:espresso-contrib:3.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\e7c8db1ca1738da28efb751727b0ef75\espresso-contrib-3.2.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.2.0-alpha02] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\eb992c70c66706d4c9369c865a81a125\material-1.2.0-alpha02\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.0-alpha02] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\eb992c70c66706d4c9369c865a81a125\material-1.2.0-alpha02\AndroidManifest.xml:22:5-20
+MERGED from [com.airbnb.android:lottie:3.0.7] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\ea7710cdb8909e9a5d56acb794599105\lottie-3.0.7\AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:3.0.7] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\ea7710cdb8909e9a5d56acb794599105\lottie-3.0.7\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\140e197d83343f156dc84b9dfd575292\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\140e197d83343f156dc84b9dfd575292\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [io.mockk:mockk-agent-android:1.9.3] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\a6518ea5649f17cf76033a4a4b42c03f\mockk-agent-android-1.9.3\AndroidManifest.xml:10:5-20
+MERGED from [io.mockk:mockk-agent-android:1.9.3] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\a6518ea5649f17cf76033a4a4b42c03f\mockk-agent-android-1.9.3\AndroidManifest.xml:10:5-20
+MERGED from [androidx.test:core:1.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\1103ae60a35c205df1c98257189f07c5\core-1.2.0\AndroidManifest.xml:26:5-48:19
+MERGED from [androidx.test:core:1.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\1103ae60a35c205df1c98257189f07c5\core-1.2.0\AndroidManifest.xml:26:5-48:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0-rc03] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\08ca6a2ebcc840c3f30a51908015c350\lifecycle-extensions-2.2.0-rc03\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0-rc03] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\08ca6a2ebcc840c3f30a51908015c350\lifecycle-extensions-2.2.0-rc03\AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\89d85a3dcf7d278853c170cb2710535b\jetified-glide-4.9.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\89d85a3dcf7d278853c170cb2710535b\jetified-glide-4.9.0\AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.2.0-rc01] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\009e1e961c85593e58c8e6319d1fc7ca\core-1.2.0-rc01\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.2.0-rc01] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\009e1e961c85593e58c8e6319d1fc7ca\core-1.2.0-rc01\AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0-rc03] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\4ec46f6b918a6e32e2deff11e586af2e\lifecycle-process-2.2.0-rc03\AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0-rc03] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\4ec46f6b918a6e32e2deff11e586af2e\lifecycle-process-2.2.0-rc03\AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\2958bfeff871706e37e023803895bb19\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\2958bfeff871706e37e023803895bb19\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\28298c468e2301880864f14851a6a3c7\jetified-gifdecoder-4.9.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\28298c468e2301880864f14851a6a3c7\jetified-gifdecoder-4.9.0\AndroidManifest.xml:9:5-20
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.2.0-rc01] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\009e1e961c85593e58c8e6319d1fc7ca\core-1.2.0-rc01\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.2.0-rc01] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\009e1e961c85593e58c8e6319d1fc7ca\core-1.2.0-rc01\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml:11:9-41
 	tools:ignore
-		ADDED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml:15:9-48
+		ADDED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml:15:9-48
 	android:roundIcon
-		ADDED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml:12:9-54
 	tools:targetApi
-		ADDED from [:features:order] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-28
+		ADDED from [:features:order] C:\Users\izabe\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-28
 	android:icon
-		ADDED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml:14:9-43
+		ADDED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml:14:9-43
 	android:usesCleartextTraffic
-		ADDED from [:features:order] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:9-44
+		ADDED from [:features:order] C:\Users\izabe\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:9-44
 activity#com.choco.SplashActivity
-ADDED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml:16:9-23:20
+ADDED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml:16:9-23:20
 	android:screenOrientation
-		ADDED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml:18:13-49
+		ADDED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml:18:13-49
 	android:name
-		ADDED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml:17:13-43
+		ADDED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml:17:13-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml:19:13-22:29
+ADDED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml:19:13-22:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml:20:17-69
+ADDED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml:20:25-66
+		ADDED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml:21:27-74
 uses-sdk
-INJECTED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml
-MERGED from [:features:login] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:features:login] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:features:order] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
-MERGED from [:features:order] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
-MERGED from [:core:base] C:\Users\izabela.c.araujo\StudioProjects\Choco\core\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:core:base] C:\Users\izabela.c.araujo\StudioProjects\Choco\core\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:core:actions] C:\Users\izabela.c.araujo\StudioProjects\Choco\core\actions\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:core:actions] C:\Users\izabela.c.araujo\StudioProjects\Choco\core\actions\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:core:network] C:\Users\izabela.c.araujo\StudioProjects\Choco\core\network\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:core:network] C:\Users\izabela.c.araujo\StudioProjects\Choco\core\network\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.material:material:1.2.0-alpha02] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\eb992c70c66706d4c9369c865a81a125\material-1.2.0-alpha02\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.2.0-alpha02] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\eb992c70c66706d4c9369c865a81a125\material-1.2.0-alpha02\AndroidManifest.xml:20:5-44
-MERGED from [com.airbnb.android:lottie:3.0.7] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\ea7710cdb8909e9a5d56acb794599105\lottie-3.0.7\AndroidManifest.xml:5:5-7:41
-MERGED from [com.airbnb.android:lottie:3.0.7] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\ea7710cdb8909e9a5d56acb794599105\lottie-3.0.7\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\93bc303e0edf41378a70a682ebb74605\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\93bc303e0edf41378a70a682ebb74605\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core-ktx:1.2.0-rc01] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\ba3287adc74e26bd50a860670dcc639c\core-ktx-1.2.0-rc01\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.core:core-ktx:1.2.0-rc01] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\ba3287adc74e26bd50a860670dcc639c\core-ktx-1.2.0-rc01\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\140e197d83343f156dc84b9dfd575292\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\140e197d83343f156dc84b9dfd575292\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.test.ext:junit:1.1.1] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\6eba6c5b575892eaa14a45d816817b22\junit-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.test.ext:junit:1.1.1] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\6eba6c5b575892eaa14a45d816817b22\junit-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.test:rules:1.2.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\d0f407b099cc0025c571324a61a0b45e\rules-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.test:rules:1.2.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\d0f407b099cc0025c571324a61a0b45e\rules-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.test.ext:truth:1.2.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\0f91c382b23c106bc6d010789dbeb8ff\truth-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.test.ext:truth:1.2.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\0f91c382b23c106bc6d010789dbeb8ff\truth-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0-rc03] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\9305411aa0504b2c1f2e1227810b4abc\lifecycle-viewmodel-ktx-2.2.0-rc03\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0-rc03] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\9305411aa0504b2c1f2e1227810b4abc\lifecycle-viewmodel-ktx-2.2.0-rc03\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\12e3091321384669e8f586318ef1d685\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\12e3091321384669e8f586318ef1d685\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\24dca681329175a03d53e389a45c201a\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\24dca681329175a03d53e389a45c201a\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\4681ba69b992d1066d0f86ff962fa316\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\4681ba69b992d1066d0f86ff962fa316\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.test:core:1.2.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\1103ae60a35c205df1c98257189f07c5\core-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.test:core:1.2.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\1103ae60a35c205df1c98257189f07c5\core-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.test:runner:1.2.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\149c1ffbaa8ccbb6b789d6708935277e\runner-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.test:runner:1.2.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\149c1ffbaa8ccbb6b789d6708935277e\runner-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.test:monitor:1.2.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\1cb511af2544d8044fd7b732ee737301\monitor-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.test:monitor:1.2.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\1cb511af2544d8044fd7b732ee737301\monitor-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0-rc03] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\08ca6a2ebcc840c3f30a51908015c350\lifecycle-extensions-2.2.0-rc03\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0-rc03] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\08ca6a2ebcc840c3f30a51908015c350\lifecycle-extensions-2.2.0-rc03\AndroidManifest.xml:20:5-22:41
-MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\9b7c3aab5e02c39af96b6901c86cfb8a\jetified-glide-4.9.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\9b7c3aab5e02c39af96b6901c86cfb8a\jetified-glide-4.9.0\AndroidManifest.xml:6:5-8:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\50dbf37e10b7bd5c1bf2c0fff2d83243\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\50dbf37e10b7bd5c1bf2c0fff2d83243\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\0aa511544b3ee110c63a1446fbe2c5e4\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\0aa511544b3ee110c63a1446fbe2c5e4\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-rc01] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\5e98f2f4516813ee386b1b699422e5d8\coordinatorlayout-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-rc01] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\5e98f2f4516813ee386b1b699422e5d8\coordinatorlayout-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0-rc01] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\626f7a14b4553bc0d1112f7908602269\viewpager2-1.0.0-rc01\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0-rc01] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\626f7a14b4553bc0d1112f7908602269\viewpager2-1.0.0-rc01\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0-rc01] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\437ad1432ae9878d6945becdfe5d3d70\recyclerview-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0-rc01] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\437ad1432ae9878d6945becdfe5d3d70\recyclerview-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.2.0-rc01] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\1634a2ce32bcd415a6f8fb67c2d46436\fragment-1.2.0-rc01\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.2.0-rc01] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\1634a2ce32bcd415a6f8fb67c2d46436\fragment-1.2.0-rc01\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\29a6593c42d1f7975c962d8d95b5ed40\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\29a6593c42d1f7975c962d8d95b5ed40\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\e7c663d08d0478d87f07969d53991dd8\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\e7c663d08d0478d87f07969d53991dd8\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\b08f47ec7f7853b48a9a1010edaf7c7b\transition-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\b08f47ec7f7853b48a9a1010edaf7c7b\transition-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\9d820099421ea00e96b2625ea6c19c4c\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\9d820099421ea00e96b2625ea6c19c4c\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.1.0-rc01] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\15a67a80c162d67ac3944a5847992fca\activity-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.1.0-rc01] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\15a67a80c162d67ac3944a5847992fca\activity-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.2.0-rc01] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\009e1e961c85593e58c8e6319d1fc7ca\core-1.2.0-rc01\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.2.0-rc01] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\009e1e961c85593e58c8e6319d1fc7ca\core-1.2.0-rc01\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0-rc03] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\4ec46f6b918a6e32e2deff11e586af2e\lifecycle-process-2.2.0-rc03\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.2.0-rc03] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\4ec46f6b918a6e32e2deff11e586af2e\lifecycle-process-2.2.0-rc03\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-service:2.2.0-rc03] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\0501a1406a071569e979db6754876312\lifecycle-service-2.2.0-rc03\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-service:2.2.0-rc03] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\0501a1406a071569e979db6754876312\lifecycle-service-2.2.0-rc03\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0-rc03] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\e948305c67e2804e6938b930e1aafc52\lifecycle-runtime-2.2.0-rc03\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0-rc03] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\e948305c67e2804e6938b930e1aafc52\lifecycle-runtime-2.2.0-rc03\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\2958bfeff871706e37e023803895bb19\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\2958bfeff871706e37e023803895bb19\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\dfb1f22e942c156be6987681931b441d\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\dfb1f22e942c156be6987681931b441d\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\bd33ba3bda4a1773abff4e58849fc64f\jetified-gifdecoder-4.9.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\bd33ba3bda4a1773abff4e58849fc64f\jetified-gifdecoder-4.9.0\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0-rc03] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\0b0dc89cab411e894c83912278042914\lifecycle-livedata-2.2.0-rc03\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0-rc03] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\0b0dc89cab411e894c83912278042914\lifecycle-livedata-2.2.0-rc03\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0-rc01] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\24584d2b4f3e02373b15f3ba19723dc9\lifecycle-viewmodel-savedstate-1.0.0-rc01\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0-rc01] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\24584d2b4f3e02373b15f3ba19723dc9\lifecycle-viewmodel-savedstate-1.0.0-rc01\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0-rc03] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\2d791ac891240b4133a695842182bbc3\lifecycle-livedata-core-2.2.0-rc03\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0-rc03] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\2d791ac891240b4133a695842182bbc3\lifecycle-livedata-core-2.2.0-rc03\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\b0af4bd25e8bd0125497169244a78c79\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\b0af4bd25e8bd0125497169244a78c79\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\7c6636ec62ad2c4f482a80212e8dde81\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\7c6636ec62ad2c4f482a80212e8dde81\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0-rc03] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\33515ee9af2edef01df6dc233e617ec9\lifecycle-viewmodel-2.2.0-rc03\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0-rc03] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\33515ee9af2edef01df6dc233e617ec9\lifecycle-viewmodel-2.2.0-rc03\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\225c82d8c731985fb415caed199cb7eb\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\225c82d8c731985fb415caed199cb7eb\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml
+MERGED from [:features:login] C:\Users\izabe\StudioProjects\Choco\features\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:features:login] C:\Users\izabe\StudioProjects\Choco\features\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:features:order] C:\Users\izabe\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [:features:order] C:\Users\izabe\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [:core:base] C:\Users\izabe\StudioProjects\Choco\core\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:core:base] C:\Users\izabe\StudioProjects\Choco\core\base\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:core:actions] C:\Users\izabe\StudioProjects\Choco\core\actions\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:core:actions] C:\Users\izabe\StudioProjects\Choco\core\actions\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:core:network] C:\Users\izabe\StudioProjects\Choco\core\network\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:core:network] C:\Users\izabe\StudioProjects\Choco\core\network\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.test.espresso:espresso-contrib:3.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\e7c8db1ca1738da28efb751727b0ef75\espresso-contrib-3.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.espresso:espresso-contrib:3.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\e7c8db1ca1738da28efb751727b0ef75\espresso-contrib-3.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.2.0-alpha02] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\eb992c70c66706d4c9369c865a81a125\material-1.2.0-alpha02\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.0-alpha02] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\eb992c70c66706d4c9369c865a81a125\material-1.2.0-alpha02\AndroidManifest.xml:20:5-44
+MERGED from [com.airbnb.android:lottie:3.0.7] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\ea7710cdb8909e9a5d56acb794599105\lottie-3.0.7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:3.0.7] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\ea7710cdb8909e9a5d56acb794599105\lottie-3.0.7\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\93bc303e0edf41378a70a682ebb74605\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\93bc303e0edf41378a70a682ebb74605\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.2.0-rc01] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\ba3287adc74e26bd50a860670dcc639c\core-ktx-1.2.0-rc01\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.2.0-rc01] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\ba3287adc74e26bd50a860670dcc639c\core-ktx-1.2.0-rc01\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\140e197d83343f156dc84b9dfd575292\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\140e197d83343f156dc84b9dfd575292\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.test.espresso:espresso-intents:3.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\bd63db5f2909254d08438137e0af6416\espresso-intents-3.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.espresso:espresso-intents:3.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\bd63db5f2909254d08438137e0af6416\espresso-intents-3.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.espresso:espresso-core:3.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\10e185e1e788b7b7684ed77ea58716db\espresso-core-3.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.espresso:espresso-core:3.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\10e185e1e788b7b7684ed77ea58716db\espresso-core-3.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.ext:junit:1.1.1] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\6eba6c5b575892eaa14a45d816817b22\junit-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.ext:junit:1.1.1] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\6eba6c5b575892eaa14a45d816817b22\junit-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:rules:1.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\d0f407b099cc0025c571324a61a0b45e\rules-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:rules:1.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\d0f407b099cc0025c571324a61a0b45e\rules-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.ext:truth:1.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\0f91c382b23c106bc6d010789dbeb8ff\truth-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.ext:truth:1.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\0f91c382b23c106bc6d010789dbeb8ff\truth-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0-rc03] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\9305411aa0504b2c1f2e1227810b4abc\lifecycle-viewmodel-ktx-2.2.0-rc03\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0-rc03] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\9305411aa0504b2c1f2e1227810b4abc\lifecycle-viewmodel-ktx-2.2.0-rc03\AndroidManifest.xml:20:5-22:41
+MERGED from [io.mockk:mockk-android:1.9.3] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\00c4c1663f6ab8c94847cd72c1a6ad71\mockk-android-1.9.3\AndroidManifest.xml:6:5-8:41
+MERGED from [io.mockk:mockk-android:1.9.3] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\00c4c1663f6ab8c94847cd72c1a6ad71\mockk-android-1.9.3\AndroidManifest.xml:6:5-8:41
+MERGED from [io.mockk:mockk-agent-android:1.9.3] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\a6518ea5649f17cf76033a4a4b42c03f\mockk-agent-android-1.9.3\AndroidManifest.xml:6:5-8:41
+MERGED from [io.mockk:mockk-agent-android:1.9.3] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\a6518ea5649f17cf76033a4a4b42c03f\mockk-agent-android-1.9.3\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\12e3091321384669e8f586318ef1d685\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\12e3091321384669e8f586318ef1d685\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\24dca681329175a03d53e389a45c201a\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\24dca681329175a03d53e389a45c201a\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\4681ba69b992d1066d0f86ff962fa316\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\4681ba69b992d1066d0f86ff962fa316\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.test:runner:1.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\149c1ffbaa8ccbb6b789d6708935277e\runner-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:runner:1.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\149c1ffbaa8ccbb6b789d6708935277e\runner-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:core:1.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\1103ae60a35c205df1c98257189f07c5\core-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:core:1.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\1103ae60a35c205df1c98257189f07c5\core-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:monitor:1.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\1cb511af2544d8044fd7b732ee737301\monitor-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:monitor:1.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\1cb511af2544d8044fd7b732ee737301\monitor-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0-rc03] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\08ca6a2ebcc840c3f30a51908015c350\lifecycle-extensions-2.2.0-rc03\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0-rc03] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\08ca6a2ebcc840c3f30a51908015c350\lifecycle-extensions-2.2.0-rc03\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\89d85a3dcf7d278853c170cb2710535b\jetified-glide-4.9.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\89d85a3dcf7d278853c170cb2710535b\jetified-glide-4.9.0\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-rc01] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\626f7a14b4553bc0d1112f7908602269\viewpager2-1.0.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-rc01] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\626f7a14b4553bc0d1112f7908602269\viewpager2-1.0.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.0-rc01] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\1634a2ce32bcd415a6f8fb67c2d46436\fragment-1.2.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.0-rc01] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\1634a2ce32bcd415a6f8fb67c2d46436\fragment-1.2.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\29a6593c42d1f7975c962d8d95b5ed40\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\29a6593c42d1f7975c962d8d95b5ed40\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\50dbf37e10b7bd5c1bf2c0fff2d83243\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\50dbf37e10b7bd5c1bf2c0fff2d83243\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\0aa511544b3ee110c63a1446fbe2c5e4\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\0aa511544b3ee110c63a1446fbe2c5e4\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-rc01] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\5e98f2f4516813ee386b1b699422e5d8\coordinatorlayout-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-rc01] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\5e98f2f4516813ee386b1b699422e5d8\coordinatorlayout-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-rc01] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\437ad1432ae9878d6945becdfe5d3d70\recyclerview-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-rc01] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\437ad1432ae9878d6945becdfe5d3d70\recyclerview-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\e7c663d08d0478d87f07969d53991dd8\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\e7c663d08d0478d87f07969d53991dd8\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\b08f47ec7f7853b48a9a1010edaf7c7b\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\b08f47ec7f7853b48a9a1010edaf7c7b\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\3c86d6f3154e362e2ac7bcaee0a8b231\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\3c86d6f3154e362e2ac7bcaee0a8b231\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\9d820099421ea00e96b2625ea6c19c4c\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\9d820099421ea00e96b2625ea6c19c4c\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0-rc01] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\15a67a80c162d67ac3944a5847992fca\activity-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0-rc01] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\15a67a80c162d67ac3944a5847992fca\activity-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.2.0-rc01] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\009e1e961c85593e58c8e6319d1fc7ca\core-1.2.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.2.0-rc01] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\009e1e961c85593e58c8e6319d1fc7ca\core-1.2.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0-rc03] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\4ec46f6b918a6e32e2deff11e586af2e\lifecycle-process-2.2.0-rc03\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0-rc03] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\4ec46f6b918a6e32e2deff11e586af2e\lifecycle-process-2.2.0-rc03\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0-rc03] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\0501a1406a071569e979db6754876312\lifecycle-service-2.2.0-rc03\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0-rc03] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\0501a1406a071569e979db6754876312\lifecycle-service-2.2.0-rc03\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0-rc03] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\e948305c67e2804e6938b930e1aafc52\lifecycle-runtime-2.2.0-rc03\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0-rc03] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\e948305c67e2804e6938b930e1aafc52\lifecycle-runtime-2.2.0-rc03\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-testing:2.1.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\782baef231832c2b9637658bcce2a08f\core-testing-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-testing:2.1.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\782baef231832c2b9637658bcce2a08f\core-testing-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\2958bfeff871706e37e023803895bb19\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\2958bfeff871706e37e023803895bb19\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\dfb1f22e942c156be6987681931b441d\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\dfb1f22e942c156be6987681931b441d\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\28298c468e2301880864f14851a6a3c7\jetified-gifdecoder-4.9.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\28298c468e2301880864f14851a6a3c7\jetified-gifdecoder-4.9.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0-rc03] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\0b0dc89cab411e894c83912278042914\lifecycle-livedata-2.2.0-rc03\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0-rc03] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\0b0dc89cab411e894c83912278042914\lifecycle-livedata-2.2.0-rc03\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0-rc01] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\24584d2b4f3e02373b15f3ba19723dc9\lifecycle-viewmodel-savedstate-1.0.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0-rc01] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\24584d2b4f3e02373b15f3ba19723dc9\lifecycle-viewmodel-savedstate-1.0.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0-rc03] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\2d791ac891240b4133a695842182bbc3\lifecycle-livedata-core-2.2.0-rc03\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0-rc03] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\2d791ac891240b4133a695842182bbc3\lifecycle-livedata-core-2.2.0-rc03\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\b0af4bd25e8bd0125497169244a78c79\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\b0af4bd25e8bd0125497169244a78c79\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\7c6636ec62ad2c4f482a80212e8dde81\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\7c6636ec62ad2c4f482a80212e8dde81\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0-rc03] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\33515ee9af2edef01df6dc233e617ec9\lifecycle-viewmodel-2.2.0-rc03\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0-rc03] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\33515ee9af2edef01df6dc233e617ec9\lifecycle-viewmodel-2.2.0-rc03\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\225c82d8c731985fb415caed199cb7eb\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\225c82d8c731985fb415caed199cb7eb\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\b49a3cb0a0186e54d18812f26e6e4ce2\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\b49a3cb0a0186e54d18812f26e6e4ce2\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\c9eb4efc2103a05ad6203fd4d78919fe\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\c9eb4efc2103a05ad6203fd4d78919fe\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\a7ac5d9832a55e02f327cca94b1b2adb\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\a7ac5d9832a55e02f327cca94b1b2adb\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.test.espresso:espresso-idling-resource:3.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\238df2ba24bd09b698e6edd6d79d0162\espresso-idling-resource-3.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.espresso:espresso-idling-resource:3.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\238df2ba24bd09b698e6edd6d79d0162\espresso-idling-resource-3.2.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\izabela.c.araujo\StudioProjects\Choco\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\izabe\StudioProjects\Choco\app\src\main\AndroidManifest.xml
 activity#com.login.activity.LoginActivity
-ADDED from [:features:login] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-22:20
+ADDED from [:features:login] C:\Users\izabe\StudioProjects\Choco\features\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-22:20
 	android:screenOrientation
-		ADDED from [:features:login] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-49
+		ADDED from [:features:login] C:\Users\izabe\StudioProjects\Choco\features\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-49
 	android:launchMode
-		ADDED from [:features:login] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-43
+		ADDED from [:features:login] C:\Users\izabe\StudioProjects\Choco\features\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-43
 	android:theme
-		ADDED from [:features:login] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-46
+		ADDED from [:features:login] C:\Users\izabe\StudioProjects\Choco\features\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-46
 	android:name
-		ADDED from [:features:login] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-60
+		ADDED from [:features:login] C:\Users\izabe\StudioProjects\Choco\features\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-60
 intent-filter#action:name:com.features.login.activity.LoginActivity+category:name:android.intent.category.DEFAULT
-ADDED from [:features:login] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-21:29
+ADDED from [:features:login] C:\Users\izabe\StudioProjects\Choco\features\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-21:29
 action#com.features.login.activity.LoginActivity
-ADDED from [:features:login] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-84
+ADDED from [:features:login] C:\Users\izabe\StudioProjects\Choco\features\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-84
 	android:name
-		ADDED from [:features:login] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:25-81
+		ADDED from [:features:login] C:\Users\izabe\StudioProjects\Choco\features\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:25-81
 category#android.intent.category.DEFAULT
-ADDED from [:features:login] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:17-76
+ADDED from [:features:login] C:\Users\izabe\StudioProjects\Choco\features\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:17-76
 	android:name
-		ADDED from [:features:login] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:27-73
+		ADDED from [:features:login] C:\Users\izabe\StudioProjects\Choco\features\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:27-73
 meta-data#preloaded_fonts
-ADDED from [:features:login] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:9-26:57
-MERGED from [:features:order] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:9-52:57
-MERGED from [:features:order] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:9-52:57
+ADDED from [:features:login] C:\Users\izabe\StudioProjects\Choco\features\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:9-26:57
+MERGED from [:features:order] C:\Users\izabe\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:9-52:57
+MERGED from [:features:order] C:\Users\izabe\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:9-52:57
 	android:resource
-		ADDED from [:features:login] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-54
+		ADDED from [:features:login] C:\Users\izabe\StudioProjects\Choco\features\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-54
 	android:name
-		ADDED from [:features:login] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-43
+		ADDED from [:features:login] C:\Users\izabe\StudioProjects\Choco\features\login\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-43
 activity#com.order.ordercheckout.ui.activity.ConfirmationOrderActivity
-ADDED from [:features:order] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-26:20
+ADDED from [:features:order] C:\Users\izabe\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-26:20
 	android:screenOrientation
-		ADDED from [:features:order] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-49
+		ADDED from [:features:order] C:\Users\izabe\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-49
 	android:launchMode
-		ADDED from [:features:order] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-43
+		ADDED from [:features:order] C:\Users\izabe\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-43
 	android:name
-		ADDED from [:features:order] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-89
+		ADDED from [:features:order] C:\Users\izabe\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-89
 intent-filter#action:name:com.features.order.ordercheckout.ui.activity.ConfirmationOrderActivity+category:name:android.intent.category.DEFAULT
-ADDED from [:features:order] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-25:29
+ADDED from [:features:order] C:\Users\izabe\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-25:29
 action#com.features.order.ordercheckout.ui.activity.ConfirmationOrderActivity
-ADDED from [:features:order] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-113
+ADDED from [:features:order] C:\Users\izabe\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-113
 	android:name
-		ADDED from [:features:order] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:25-110
+		ADDED from [:features:order] C:\Users\izabe\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:25-110
 activity#com.order.ordercheckout.ui.activity.OrderCheckoutActivity
-ADDED from [:features:order] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:9-37:20
+ADDED from [:features:order] C:\Users\izabe\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:9-37:20
 	android:screenOrientation
-		ADDED from [:features:order] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-49
+		ADDED from [:features:order] C:\Users\izabe\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-49
 	android:label
-		ADDED from [:features:order] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-61
+		ADDED from [:features:order] C:\Users\izabe\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-61
 	android:launchMode
-		ADDED from [:features:order] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-43
+		ADDED from [:features:order] C:\Users\izabe\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-43
 	android:name
-		ADDED from [:features:order] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-85
+		ADDED from [:features:order] C:\Users\izabe\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-85
 intent-filter#action:name:com.features.order.ordercheckout.ui.activity.OrderCheckoutActivity+category:name:android.intent.category.DEFAULT
-ADDED from [:features:order] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:13-36:29
+ADDED from [:features:order] C:\Users\izabe\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:13-36:29
 action#com.features.order.ordercheckout.ui.activity.OrderCheckoutActivity
-ADDED from [:features:order] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:17-109
+ADDED from [:features:order] C:\Users\izabe\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:17-109
 	android:name
-		ADDED from [:features:order] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:25-106
+		ADDED from [:features:order] C:\Users\izabe\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:25-106
 activity#com.order.orderlist.ui.activity.OrderListActivity
-ADDED from [:features:order] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:9-48:20
+ADDED from [:features:order] C:\Users\izabe\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:9-48:20
 	android:screenOrientation
-		ADDED from [:features:order] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:13-49
+		ADDED from [:features:order] C:\Users\izabe\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:13-49
 	android:label
-		ADDED from [:features:order] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-53
+		ADDED from [:features:order] C:\Users\izabe\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-53
 	android:launchMode
-		ADDED from [:features:order] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-43
+		ADDED from [:features:order] C:\Users\izabe\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-43
 	android:name
-		ADDED from [:features:order] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:13-77
+		ADDED from [:features:order] C:\Users\izabe\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:13-77
 intent-filter#action:name:com.features.order.orderlist.ui.activity.OrderListActivity+category:name:android.intent.category.DEFAULT
-ADDED from [:features:order] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:13-47:29
+ADDED from [:features:order] C:\Users\izabe\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:13-47:29
 action#com.features.order.orderlist.ui.activity.OrderListActivity
-ADDED from [:features:order] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:17-101
+ADDED from [:features:order] C:\Users\izabe\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:17-101
 	android:name
-		ADDED from [:features:order] C:\Users\izabela.c.araujo\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:25-98
+		ADDED from [:features:order] C:\Users\izabe\StudioProjects\Choco\features\order\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:25-98
 uses-permission#android.permission.REORDER_TASKS
-ADDED from [androidx.test:core:1.2.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\1103ae60a35c205df1c98257189f07c5\core-1.2.0\AndroidManifest.xml:24:5-72
+ADDED from [androidx.test:core:1.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\1103ae60a35c205df1c98257189f07c5\core-1.2.0\AndroidManifest.xml:24:5-72
 	android:name
-		ADDED from [androidx.test:core:1.2.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\1103ae60a35c205df1c98257189f07c5\core-1.2.0\AndroidManifest.xml:24:22-69
+		ADDED from [androidx.test:core:1.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\1103ae60a35c205df1c98257189f07c5\core-1.2.0\AndroidManifest.xml:24:22-69
 activity#androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity
-ADDED from [androidx.test:core:1.2.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\1103ae60a35c205df1c98257189f07c5\core-1.2.0\AndroidManifest.xml:27:9-33:20
+ADDED from [androidx.test:core:1.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\1103ae60a35c205df1c98257189f07c5\core-1.2.0\AndroidManifest.xml:27:9-33:20
 	android:theme
-		ADDED from [androidx.test:core:1.2.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\1103ae60a35c205df1c98257189f07c5\core-1.2.0\AndroidManifest.xml:29:13-49
+		ADDED from [androidx.test:core:1.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\1103ae60a35c205df1c98257189f07c5\core-1.2.0\AndroidManifest.xml:29:13-49
 	android:name
-		ADDED from [androidx.test:core:1.2.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\1103ae60a35c205df1c98257189f07c5\core-1.2.0\AndroidManifest.xml:28:13-99
+		ADDED from [androidx.test:core:1.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\1103ae60a35c205df1c98257189f07c5\core-1.2.0\AndroidManifest.xml:28:13-99
 intent-filter#action:name:android.intent.action.MAIN
-ADDED from [androidx.test:core:1.2.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\1103ae60a35c205df1c98257189f07c5\core-1.2.0\AndroidManifest.xml:30:13-32:29
+ADDED from [androidx.test:core:1.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\1103ae60a35c205df1c98257189f07c5\core-1.2.0\AndroidManifest.xml:30:13-32:29
 activity#androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
-ADDED from [androidx.test:core:1.2.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\1103ae60a35c205df1c98257189f07c5\core-1.2.0\AndroidManifest.xml:34:9-40:20
+ADDED from [androidx.test:core:1.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\1103ae60a35c205df1c98257189f07c5\core-1.2.0\AndroidManifest.xml:34:9-40:20
 	android:theme
-		ADDED from [androidx.test:core:1.2.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\1103ae60a35c205df1c98257189f07c5\core-1.2.0\AndroidManifest.xml:36:13-49
+		ADDED from [androidx.test:core:1.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\1103ae60a35c205df1c98257189f07c5\core-1.2.0\AndroidManifest.xml:36:13-49
 	android:name
-		ADDED from [androidx.test:core:1.2.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\1103ae60a35c205df1c98257189f07c5\core-1.2.0\AndroidManifest.xml:35:13-95
+		ADDED from [androidx.test:core:1.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\1103ae60a35c205df1c98257189f07c5\core-1.2.0\AndroidManifest.xml:35:13-95
 activity#androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity
-ADDED from [androidx.test:core:1.2.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\1103ae60a35c205df1c98257189f07c5\core-1.2.0\AndroidManifest.xml:41:9-47:20
+ADDED from [androidx.test:core:1.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\1103ae60a35c205df1c98257189f07c5\core-1.2.0\AndroidManifest.xml:41:9-47:20
 	android:theme
-		ADDED from [androidx.test:core:1.2.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\1103ae60a35c205df1c98257189f07c5\core-1.2.0\AndroidManifest.xml:43:13-56
+		ADDED from [androidx.test:core:1.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\1103ae60a35c205df1c98257189f07c5\core-1.2.0\AndroidManifest.xml:43:13-56
 	android:name
-		ADDED from [androidx.test:core:1.2.0] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\1103ae60a35c205df1c98257189f07c5\core-1.2.0\AndroidManifest.xml:42:13-103
+		ADDED from [androidx.test:core:1.2.0] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\1103ae60a35c205df1c98257189f07c5\core-1.2.0\AndroidManifest.xml:42:13-103
 provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.2.0-rc03] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\4ec46f6b918a6e32e2deff11e586af2e\lifecycle-process-2.2.0-rc03\AndroidManifest.xml:25:9-29:43
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0-rc03] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\4ec46f6b918a6e32e2deff11e586af2e\lifecycle-process-2.2.0-rc03\AndroidManifest.xml:25:9-29:43
 	android:authorities
-		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0-rc03] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\4ec46f6b918a6e32e2deff11e586af2e\lifecycle-process-2.2.0-rc03\AndroidManifest.xml:27:13-69
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0-rc03] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\4ec46f6b918a6e32e2deff11e586af2e\lifecycle-process-2.2.0-rc03\AndroidManifest.xml:27:13-69
 	android:multiprocess
-		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0-rc03] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\4ec46f6b918a6e32e2deff11e586af2e\lifecycle-process-2.2.0-rc03\AndroidManifest.xml:29:13-40
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0-rc03] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\4ec46f6b918a6e32e2deff11e586af2e\lifecycle-process-2.2.0-rc03\AndroidManifest.xml:29:13-40
 	android:exported
-		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0-rc03] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\4ec46f6b918a6e32e2deff11e586af2e\lifecycle-process-2.2.0-rc03\AndroidManifest.xml:28:13-37
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0-rc03] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\4ec46f6b918a6e32e2deff11e586af2e\lifecycle-process-2.2.0-rc03\AndroidManifest.xml:28:13-37
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0-rc03] C:\Users\izabela.c.araujo\.gradle\caches\transforms-2\files-2.1\4ec46f6b918a6e32e2deff11e586af2e\lifecycle-process-2.2.0-rc03\AndroidManifest.xml:26:13-79
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0-rc03] C:\Users\izabe\.gradle\caches\transforms-2\files-2.1\4ec46f6b918a6e32e2deff11e586af2e\lifecycle-process-2.2.0-rc03\AndroidManifest.xml:26:13-79

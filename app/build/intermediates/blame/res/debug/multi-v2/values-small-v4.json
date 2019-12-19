@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\izabela.c.araujo\\StudioProjects\\Choco\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
+            "outputFile": "C:\\Users\\izabe\\StudioProjects\\Choco\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\izabela.c.araujo\\.gradle\\caches\\transforms-2\\files-2.1\\eb992c70c66706d4c9369c865a81a125\\material-1.2.0-alpha02\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\izabe\\.gradle\\caches\\transforms-2\\files-2.1\\eb992c70c66706d4c9369c865a81a125\\material-1.2.0-alpha02\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

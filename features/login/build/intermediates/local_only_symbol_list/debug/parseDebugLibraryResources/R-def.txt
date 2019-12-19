@@ -9,7 +9,9 @@ drawable background_login_button
 drawable background_login_edit
 drawable ic_email
 drawable ic_lock
+font aclonica
 font acme
+font amaranth
 font amita
 id btnLogin
 id etLoginEmail

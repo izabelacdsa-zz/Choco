@@ -6,40 +6,40 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\izabela.c.araujo\StudioProjects\Choco\features\login\src\main\AndroidManifest.xml
+8-->C:\Users\izabe\StudioProjects\Choco\features\login\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->C:\Users\izabela.c.araujo\StudioProjects\Choco\features\login\src\main\AndroidManifest.xml
+9-->C:\Users\izabe\StudioProjects\Choco\features\login\src\main\AndroidManifest.xml
 10
 11    <application>
-11-->C:\Users\izabela.c.araujo\StudioProjects\Choco\features\login\src\main\AndroidManifest.xml:5:5-18:19
+11-->C:\Users\izabe\StudioProjects\Choco\features\login\src\main\AndroidManifest.xml:5:5-18:19
 12        <activity
-12-->C:\Users\izabela.c.araujo\StudioProjects\Choco\features\login\src\main\AndroidManifest.xml:6:9-14:20
+12-->C:\Users\izabe\StudioProjects\Choco\features\login\src\main\AndroidManifest.xml:6:9-14:20
 13            android:name="com.login.activity.LoginActivity"
-13-->C:\Users\izabela.c.araujo\StudioProjects\Choco\features\login\src\main\AndroidManifest.xml:6:19-57
+13-->C:\Users\izabe\StudioProjects\Choco\features\login\src\main\AndroidManifest.xml:6:19-57
 14            android:launchMode="singleTop"
-14-->C:\Users\izabela.c.araujo\StudioProjects\Choco\features\login\src\main\AndroidManifest.xml:7:13-43
+14-->C:\Users\izabe\StudioProjects\Choco\features\login\src\main\AndroidManifest.xml:7:13-43
 15            android:screenOrientation="portrait"
-15-->C:\Users\izabela.c.araujo\StudioProjects\Choco\features\login\src\main\AndroidManifest.xml:8:13-49
+15-->C:\Users\izabe\StudioProjects\Choco\features\login\src\main\AndroidManifest.xml:8:13-49
 16            android:theme="@style/LoginTheme" >
-16-->C:\Users\izabela.c.araujo\StudioProjects\Choco\features\login\src\main\AndroidManifest.xml:9:13-46
+16-->C:\Users\izabe\StudioProjects\Choco\features\login\src\main\AndroidManifest.xml:9:13-46
 17            <intent-filter>
-17-->C:\Users\izabela.c.araujo\StudioProjects\Choco\features\login\src\main\AndroidManifest.xml:10:13-13:29
+17-->C:\Users\izabe\StudioProjects\Choco\features\login\src\main\AndroidManifest.xml:10:13-13:29
 18                <action android:name="com.features.login.activity.LoginActivity" />
-18-->C:\Users\izabela.c.araujo\StudioProjects\Choco\features\login\src\main\AndroidManifest.xml:11:17-83
-18-->C:\Users\izabela.c.araujo\StudioProjects\Choco\features\login\src\main\AndroidManifest.xml:11:25-81
+18-->C:\Users\izabe\StudioProjects\Choco\features\login\src\main\AndroidManifest.xml:11:17-83
+18-->C:\Users\izabe\StudioProjects\Choco\features\login\src\main\AndroidManifest.xml:11:25-81
 19
 20                <category android:name="android.intent.category.DEFAULT" />
-20-->C:\Users\izabela.c.araujo\StudioProjects\Choco\features\login\src\main\AndroidManifest.xml:12:17-75
-20-->C:\Users\izabela.c.araujo\StudioProjects\Choco\features\login\src\main\AndroidManifest.xml:12:27-73
+20-->C:\Users\izabe\StudioProjects\Choco\features\login\src\main\AndroidManifest.xml:12:17-75
+20-->C:\Users\izabe\StudioProjects\Choco\features\login\src\main\AndroidManifest.xml:12:27-73
 21            </intent-filter>
 22        </activity>
 23
 24        <meta-data
-24-->C:\Users\izabela.c.araujo\StudioProjects\Choco\features\login\src\main\AndroidManifest.xml:15:9-17:57
+24-->C:\Users\izabe\StudioProjects\Choco\features\login\src\main\AndroidManifest.xml:15:9-17:57
 25            android:name="preloaded_fonts"
-25-->C:\Users\izabela.c.araujo\StudioProjects\Choco\features\login\src\main\AndroidManifest.xml:16:13-43
+25-->C:\Users\izabe\StudioProjects\Choco\features\login\src\main\AndroidManifest.xml:16:13-43
 26            android:resource="@array/preloaded_fonts" />
-26-->C:\Users\izabela.c.araujo\StudioProjects\Choco\features\login\src\main\AndroidManifest.xml:17:13-54
+26-->C:\Users\izabe\StudioProjects\Choco\features\login\src\main\AndroidManifest.xml:17:13-54
 27    </application>
 28
 29</manifest>
