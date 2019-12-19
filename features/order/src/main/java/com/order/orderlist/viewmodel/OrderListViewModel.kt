@@ -1,9 +1,7 @@
 package com.order.orderlist.viewmodel
 
-import android.widget.Toast
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
-import com.actions.Actions
 import com.base.BaseViewModel
 import com.base.R
 import com.extensions.HasError
@@ -41,6 +39,7 @@ class OrderListViewModel : BaseViewModel() {
             }
         }
     }
+
     private fun parseException(exception: java.lang.Exception): HasError {
         return when (exception) {
             is IOException -> HasError(

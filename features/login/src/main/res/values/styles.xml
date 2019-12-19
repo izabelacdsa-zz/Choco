@@ -9,7 +9,7 @@
 
     <style name="LoginButtonTheme">
         <item name="android:fontFamily">@font/acme</item>
-        <item name="android:textColor">@color/colorSecondaryText</item>
+        <item name="android:textColor">@android:color/white</item>
         <item name="android:textAllCaps">true</item>
         <item name="android:textSize">@dimen/text_medium</item>
     </style>

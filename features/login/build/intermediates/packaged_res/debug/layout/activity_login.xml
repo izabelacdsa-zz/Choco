@@ -84,6 +84,7 @@
         android:background="@drawable/background_login_button"
         android:text="@string/login_sign_in"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tilLoginPassword" />
 
@@ -96,6 +97,7 @@
         app:layout_constraintEnd_toEndOf="@id/btnLogin"
         app:layout_constraintStart_toStartOf="@id/btnLogin"
         app:layout_constraintTop_toTopOf="@id/btnLogin"
+        android:layout_marginTop="@dimen/margin_padding_large"
         app:lottie_autoPlay="true"
         app:lottie_fileName="loading.json"
         app:lottie_loop="true"

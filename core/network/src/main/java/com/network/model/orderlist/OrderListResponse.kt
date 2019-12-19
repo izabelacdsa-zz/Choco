@@ -16,4 +16,4 @@ data class OrderListResponse(
     val photo: String,
     @SerializedName("price")
     val price: Int
-): Parcelable
+) : Parcelable
