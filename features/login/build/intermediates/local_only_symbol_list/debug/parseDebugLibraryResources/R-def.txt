@@ -1,0 +1,27 @@
+R_DEF: Internal format may change without notice
+local
+color colorloginButton
+drawable background_login_button
+drawable background_login_edit
+drawable ic_email
+drawable ic_lock
+font aclonica
+font acme
+font amaranth
+font amita
+id btnLogin
+id etLoginEmail
+id etLoginPassword
+id ivChocoLogoLogin
+id loginContentLayout
+id progressBar
+id tilLoginEmail
+id tilLoginPassword
+layout activity_login
+string app_name
+string login_fill_spaces
+string login_hint_email
+string login_hint_pass
+string login_sign_in
+style LoginButtonTheme
+style LoginTheme

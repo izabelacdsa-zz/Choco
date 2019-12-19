@@ -5,9 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import com.actions.Actions
 import com.network.model.orderlist.OrderListResponse
 import com.order.R
-import com.order.orderlist.ui.adapter.OrderCheckoutAdapter
+import com.order.ordercheckout.ui.adapter.OrderCheckoutAdapter
 import kotlinx.android.synthetic.main.activity_order_checkout.*
-import java.util.ArrayList
 
 class OrderCheckoutActivity : AppCompatActivity() {
 
